@@ -1,0 +1,37 @@
+.otpcontanier{
+
+    text-align: center;
+    margin: auto;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    width: 90%;
+    margin-top: 50px;
+}
+.otpcontanier >h1{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: rgb(29, 29, 31);
+    margin: 0px;
+}
+ h1+p{
+    font-size: 17px;
+    color: #1d1d1f;
+}
+
+#otpinput{
+    width: 60%;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 30px;
+    border: 2px solid grey;
+}
+#otpinput:focus{
+    outline: 0px;
+    border: 2px solid teal;
+   
+}
+#otptext{
+    color: teal;
+    text-decoration: none;
+}
+
