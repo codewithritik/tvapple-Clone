@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear...</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+<style>
+
+    /* navebar style */
+
+
+    .vm-1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 5px;
+    position: fixed;
+    overflow: hidden;
+    top: 0; 
+    
+}
+.c-1{
+    width: 50px;
+    height: 40px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.c-1>img{
+    width: 100%;
+    height: 100%;
+}
+.c-2{
+    width: 90px;
+    height: 28px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 5px;
+    margin-right: 50px;
+    display: flex;
+    
+}
+.c-2[onclick] {
+  cursor: pointer;
+}
+.c-2 .pnav{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 2px;
+    margin: auto;
+    margin-left: 0px;
+}
+.c-2 #navbar{
+    font-size: 10px;
+    margin-left: 0px;
+    margin: auto;
+}         
+
+/* background style */
+#bg{
+    background-image: url("https://is3-ssl.mzstatic.com/image/thumb/POXTJSpXUdDa5gyuyW4fKw/1679x945sr.webp");
+    width: 110%;
+    height: 600px;
+    margin-left: -8px;
+    margin-right: 0px
+
+}
+
+/* name */
+#name{
+    padding-top: 100px;
+    padding-left: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 120px;
+    margin: 0px;
+    font-weight: bold;
+
+}
+
+#trial{padding-top: 100px;
+padding-left: 50px;
+font-weight: bold;
+color: white;}
+#clickOn{
+    margin-left: 50px;
+    background-color: blue;
+    width: 220px;
+    border: 0px;
+    color: white;
+    border-radius: 10px;
+}
+#addTo{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 220px;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    border-radius: 10px;
+}
+
+/* cast */
+#hr2{
+    margin-top: 10px;
+}
+#cast{
+    display: flex; 
+   
+
+}
+#cast img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+h3{
+    margin-left: 30px;
+}
+.castname{
+    margin-left: 30px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+
+/* Related heading */
+.carouselriyaz4{
+  margin-right: 35px;
+}
+.carousel-cell4 {
+  width: 18.5%;
+  height: 115px;
+  margin-right: 2px;
+  border-radius: 5px;
+}
+.carousel-cell4>img{height: 90%;
+width: 90%;
+margin-left: 10px;
+border-radius: 10px;}
+#heading4{
+  margin: 5px;
+  margin-left: 35px;
+}
+.carousel-cell4:hover{
+  opacity: 0.6;
+}
+#hr1{
+    margin-top: 100px;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+    <div>
+        <!-- navbar
+  navbar navbar
+  navbar -->
+  <div id="applemaincontanier">
+    <div class="vm-1">
+      <div class="c-1"><img src="	https://tv.apple.com/assets/brands/Apple_TV_plus_logo_white-2721485772b7d06c4e33379ce990870e.svg" alt=""></div>
+      <div class="c-2" onclick="mynavbar()";>
+          
+          <i class="fas fa-user" id="navbar"></i>
+           <div class="pnav">Sing in</div>
+      
+      </div>
+    </div>
+    <br>
+    <div id="bg">
+        <h1 id="name">Dear...</h1>
+         <p id="trial">7 day free, then $4.99/month </p>
+         <a href="loginpage.html">
+             <button id="clickOn">
+             <h2>Start Free Trial</h2>
+         </button>
+         </a>
+         <br>
+         <a href="loginpage.html">
+         <button id="addTo">
+             <h2>+ Add to Up Next</h2>
+         </button>
+        </a>
+        <hr id="hr1" >
+
+
+        <h5 id="heading4">Related</h5>
+<div class="carouselriyaz4" data-flickity='{ "groupCells": true, "draggable": false, "pageDots": false }'>
+  <div class="carousel-cell4">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/yXhlXOFkS9yJ1kMmOhfIbg/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/h8oGFN-jdPeHY8j3EM_WnQ/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is5-ssl.mzstatic.com/image/thumb/NHLksWLSZpTcIw36-n7vWA/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is5-ssl.mzstatic.com/image/thumb/Cof8vC9vaCH-GYX6JltrQA/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/EjmCDwq97jEEe9RuKY7aNw/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is2-ssl.mzstatic.com/image/thumb/6tJakyTEtS0vrgdc9POZpg/738x416.webp" alt="">
+  </div>
+</div>
+ 
+<br>
+<hr id="hr2">
+    
+        <h3>Cast and Crew</h3>
+        <div id="cast">
+            <div>
+                <img src="https://is5-ssl.mzstatic.com/image/thumb/7lk1xHUMcZsKLnU7aenaTw/492x492ve.webp" alt="">
+                <p class="castname">Lyle Gamm</p>
+            </div>
+            <div>
+                <img src="https://is5-ssl.mzstatic.com/image/thumb/L-bQI7DbjdytXvT0OdqUoA/492x492ve.webp" alt="">
+                <p class="castname">Jane Cha</p>
+            </div>
+            <div>
+                <img src="https://is4-ssl.mzstatic.com/image/thumb/OnoQtsVIpRLVdu-bhHIqUQ/492x492ve.webp" alt="">
+                <p class="castname">Todd Lubin</p>
+            </div>
+            <div>
+                <img src="https://is5-ssl.mzstatic.com/image/thumb/fvMxWOIK4d1aQ_pOE2Pz8Q/492x492ve.webp" alt="">
+                <p class="castname">Jay Peterson</p>
+            </div>
+            <div>
+                <img src="https://is3-ssl.mzstatic.com/image/thumb/ANYLS9gZbyysupGhBtDH8g/492x492ve.webp" alt="">
+                <p class="castname">R.J Cutler</p>
+            </div>
+          
+        </div>
+    </div>
+</body>
+</html>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>

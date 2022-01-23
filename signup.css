@@ -1,0 +1,104 @@
+.contaniersignup{
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+    text-align: center;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.emaildiv{
+    width: 580px;
+   margin: auto;    
+}
+#itag{
+    font-size: 30px;
+    margin-left: 70%;
+    color: #CCCCCC;
+}
+.contaniersignup > form > input, .emaildiv>input{
+    width: 538px;
+    height: 53px;
+    font-size: 20px;
+    border-radius: 12px;
+    padding-left:20px;
+    margin: 5px;
+    border: 1px solid grey;
+}
+#ptag{
+    text-align: start;
+    margin-left: 20px;
+    color: grey;
+}
+.checkbox{
+    text-align: start;
+    width: 580px;
+    margin: auto;
+}
+#checkbox{
+    margin: 20px 0px 0px 15px;
+    width: 15px;
+    height: 15px;
+}
+#Countrytext{
+    margin: 10px 0px 0px 20px;
+    font-size: 12px;
+    color: #666;
+}
+#select{
+    border: none;
+    color: #0071e3;
+}
+p{
+    font-size: 12px;
+    color: #666;
+}
+#resubmit{
+    width: 120px;
+    border-radius: 10px;
+    border:none;
+    height: 40px;
+    margin-left: 450px;
+    font-size: 20px;
+    background-color: #0071e3;
+    color: white;
+}
+input:focus {
+    border: 5px solid #0071e3 !important;
+    outline: none;
+}
+@media screen and (min-width:0px) and (max-width:320px){
+    .contaniersignup{
+        width: 80%;
+        margin: auto;
+    }
+    .contaniersignup > form > input, #email{
+        width: 90%;
+        padding-left: 10px;
+    }
+    #resubmit{
+        width: 120px;
+        margin-left: 60%;
+    }
+    .emaildiv{
+        width: 100%;
+       margin: 0px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:720px){
+    .contaniersignup{
+        width: 80%;
+    }
+    .contaniersignup > form > input, #email{
+        width: 90%;
+        
+        padding-left: 10px;
+    }
+    #resubmit{
+        width: 100px;
+        margin-left: 60%;
+    }
+    .emaildiv{
+        width: 100%;
+       margin: 0px;
+    }
+    
+}

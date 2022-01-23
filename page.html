@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <style>
+        #container{
+            background-image:url("https://is1-ssl.mzstatic.com/image/thumb/oNk2OJAqURutdmT8ckQdYg/1679x945sr.webp");
+            height:800px;
+           
+        }
+        #imge{
+            height:80px;
+            width:300px;
+            margin: 50px;
+           border-radius:5px;
+           box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+        #clam1{
+            width:100%;
+            height:100px;
+            display: grid;
+            grid-template-columns:100px 600px 300px;
+            grid-gap:180px;
+            grid-template-rows:100px;
+            
+        }
+        #clam2{
+            width:100%;
+            height:100px;
+            display: grid;
+            margin-top:-35px;
+            grid-template-columns:100px 600px 300px;
+            grid-gap:180px;
+            grid-template-rows:100px;
+        }
+        #nam{
+            color:white;
+            text-align:start;
+            margin-left:50px;
+            margin-top:400px;
+
+        }
+        #bton{
+            margin-left:50px;
+            height:50px;
+            width:200px;
+            font-size:20px;
+            background-color: blue;
+            color:white;
+            border-radius:6px;
+            border: none;
+        }
+        #bton1{
+            margin-left:50px;
+            height:50px;
+            width:200px;
+            font-size:20px;
+            background-color:rgb(80, 70, 70);
+            color:white;
+            border-radius:8px;
+            border: none;
+        }
+        #nam1{
+            font-size:18px;
+            margin-top:-1px;
+            color:rgb(204, 200, 193);
+        }
+        #nam2{
+            margin-top:-1px;
+            color:rgb(172, 167, 167);
+        }
+        #gam{
+            font-size:12px;
+            margin-top:30px;
+            color:rgb(204, 200, 193);
+        }
+        #gam1{
+            margin-top:-1px;
+            color:rgb(172, 167, 167);
+        }
+        #aman10{
+            margin-left:30px;
+            margin-top:30px;
+        }
+        #aman11{
+            margin-left:30px;
+            display:grid;
+            width:70%;
+            grid-template-columns:repeat(4,1fr);
+            
+        }
+        #img21{
+            border-radius:5px;
+            height:120px;
+            width:200px;
+            box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }#nam22{
+            margin-top:-4px;
+            color:rgb(87, 82, 82);
+            font-style: normal;
+        }
+        #aman12{
+            margin-left:30px;
+        }
+        #aman13{
+         margin-left:20px;
+        }
+     #img2{
+                  height:140px;
+                  width:250px;
+                  border-radius:5px;
+                  margin-left:20px; }
+        #img22{
+            margin-left:30px;
+            height:180px;
+            width:200px;
+            border-radius:5px;
+        }
+        #nam3{
+            margin-left:50px;
+            font-size:12px;
+            font-weight: lighter;
+            color:black;
+            margin-top:-3px;
+        }
+        #rat{
+          height:115px;
+          width:115px;
+          margin-left:20px;
+          border-radius:50%;
+          /* padding-top:270px; */
+         
+      }
+      #rat2{
+          color:black;
+          font-size:13px;
+          margin-left:20px;
+          font-family: Arial, Helvetica, sans-serif;
+          line-height:1px;
+      }
+      #aman16{
+          display:grid;
+          grid-template-columns:repeat(2,1fr);
+          width:70%;
+          margin-left:30px;
+          grid-gap:15px;
+      }
+      #nam5{
+          border-radius: 8px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      }
+      #nam6{
+          border-radius: 8px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      }
+      #tret{
+          color:grey;
+      }
+      #aman17{
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          grid-gap:15px;
+          width:90%;
+          margin-left:30px;
+      }
+      
+    </style>
+    
+</head>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<body>
+    <div id="container"></div>
+    <h3 id="aman10">Trailer</h3>
+    <div id="aman11"></div>
+    <hr/>
+    <h3 id="aman10">Bonus Content</h3>
+    <div id="aman12"></div>
+    <h3 id="aman10">Related</h3>
+    <div id="aman13"></div>
+    <h3 id="aman10">How to Watch</h3>
+    <div id="aman14" >
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/DB8YqlVtN7M8YvGvgsP2eg/400x225.png" id="img22"/>
+        <p id="nam3">7 day free then $4.99/Month</p>
+    </div>
+    <hr/>
+    <h3 id="aman10">Cats & Crew</h3>
+    <div id="aman15"></div>
+    <h3 id="aman10">About</h3>
+    <div id="aman16">
+        <div id="nam5">
+            <h3>The Tragedy Of Macbeth</h3>
+            <p id="tret">Drama</p>
+            <p id="tret">Denzel Washington and Frances Macdormand star in joel con's bold fierce adopatiton--A tale of Murder,madness and ambition</p>
+        </div>
+        <div id="nam6"><h3>15+</h3>
+        <p id="tret"> Common sense</p>
+      <p id="tret">Stark, Violent and one of the best  Shakeshphere flims</p></div>
+    </div>
+    <hr/>
+    <div id="aman17">
+        <div id="nam7">
+            <h2>Information</h2>
+            <p id="tret">Genre:-
+                Drama
+            </p>
+            <p id="tret">Released:-
+                2021
+            </p>
+            <p id="tret">Run Time:-
+                1 hr 45 min
+            </p>
+            <p id="tret"> id="tret"Rated:-
+              R.Violence
+            </p id="tret">
+            <p id="tret">Region of Origin:-
+                United State
+            </p>
+            <p id="tret">Original Audio:-
+                English
+            </p>
+        </div>
+        <div id="nam8">
+            <h2>Language</h2>
+            <p id="tret">Audio
+                English (AD, Dolby 5.1 AAC Dolby Atmos and 9 more)
+            </p>
+            <p id="tret">Subtitle
+                English CC SDH and 40 more
+            </p>
+            <a href="">See All</a>
+        </div>
+        <div id="nam9">
+            <h2>Accessibility</h2>
+            <p id="tret">Closed caption (CC) refer to subtitle in the avalible language with addition of relevent non dialogue information</p>
+            <p id="tret">Audio decription (AD) refer to a narration track descnbing what happening on screen to provide context for those who are blind on low vision</p>
+        </div>
+    </div>
+
+</body>
+</html>
+<script>
+var amanData=[
+    {img_url:"https://is5-ssl.mzstatic.com/image/thumb/QjxTwOwbqm01shrnls0G1g/600x225.webp",
+      name:"7 days free,then $4.99/month.",
+      },
+
+];
+var aman1Data=[
+    {
+        btn1:"Start Free Trial",
+      name1:"Denzel Washington and Frances McDormand star in Joel Coen's bold and fierce adaptation -a tale of the  murder, madness,ambition,and warthful cunning ",
+      name2:"Starring Denzel Washington,Frances Macdormand,Corey Hawkins",
+    },
+];
+var aman2Data=[
+    {
+        btn2:"+ Add UpTo Next",
+     game:"Draman-2021-1 hr 45 min",
+      game1:"Director Joel Coen",
+    },
+]
+amanData.map(function(elem){
+    var div=document.createElement("div");
+    div.setAttribute("id","clam");
+    
+    
+
+    var img_url=document.createElement("img");
+    img_url.setAttribute("src",elem.img_url)
+    img_url.setAttribute("id","imge");
+
+    var name=document.createElement("p");
+    name.textContent=elem.name;
+    name.setAttribute("id","nam");
+
+    div.append(img_url,name);
+    document.querySelector("#container").append(div)
+});
+aman1Data.map(function(elem1){
+    var div1=document.createElement("div");
+    div1.setAttribute("id","clam1");
+
+    var btn1=document.createElement("button");
+    btn1.textContent=elem1.btn1;
+    btn1.setAttribute("id","bton");
+
+    var name1=document.createElement("p");
+    name1.textContent=elem1.name1;
+    name1.setAttribute("id","nam1");
+
+    var name2=document.createElement("p");
+    name2.textContent=elem1.name2;
+    name2.setAttribute("id","nam2");
+
+
+    div1.append(btn1,name1,name2);
+    document.querySelector("#container").append(div1)
+  
+});
+aman2Data.map(function(elem2){
+    var div2=document.createElement("div");
+    div2.setAttribute("id","clam2");
+
+    var btn2=document.createElement("button");
+    btn2.textContent=elem2.btn2;
+    btn2.setAttribute("id","bton1");
+
+    var game=document.createElement("p");
+    game.textContent=elem2.game;
+    game.setAttribute("id","gam");
+
+    var game1=document.createElement("p");
+    game1.textContent=elem2.game1;
+    game1.setAttribute("id","gam1");
+
+    div2.append(btn2,game,game1);
+    document.querySelector("#container").append(div2);
+})
+var aman3Data=[
+    {
+        img1_url:"https://is1-ssl.mzstatic.com/image/thumb/oNk2OJAqURutdmT8ckQdYg/1679x945sr.webp",
+        name4:"The tagedy of macbath trailer",
+    },
+    {
+        img1_url:"https://is4-ssl.mzstatic.com/image/thumb/JDVyd1BA9_k31PKclj9Nzw/500x282.webp",
+        name4:"The tregedy of macbath teaser tralier",
+    },
+];
+aman3Data.map(function(treat){
+    var div=document.createElement("div");
+    div.setAttribute("id","ram");
+ 
+    var img1_url=document.createElement("img");
+    img1_url.setAttribute("src",treat.img1_url)
+    img1_url.setAttribute("id","img21");
+
+    var name4=document.createElement("p");
+    name4.textContent=treat.name4;
+    name4.setAttribute("id","nam22");
+
+    div.append(img1_url,name4);
+    document.querySelector("#aman11").append(div);
+
+});
+var aman4Data=[
+    {
+        img2_url:"https://is4-ssl.mzstatic.com/image/thumb/-cWo-V9Gh1WWIB_vAxljRA/500x282.webp",
+        name5:"Crafting tagedy of macbath trailer",
+    },
+];
+aman4Data.map(function(treat1){
+    var div=document.createElement("div");
+    div.setAttribute("id","ram");
+ 
+    var img2_url=document.createElement("img");
+    img2_url.setAttribute("src",treat1.img2_url)
+    img2_url.setAttribute("id","img21");
+
+    var name5=document.createElement("p");
+    name5.textContent=treat1.name5;
+    name5.setAttribute("id","nam22");
+
+    div.append(img2_url,name5);
+    document.querySelector("#aman12").append(div);
+
+});
+var picData=[
+     {
+         imgUrl:"https://is2-ssl.mzstatic.com/image/thumb/qYEYYvFXN2O4zEuCcBSbjw/738x416.webp",
+     },{
+         imgUrl:"https://is3-ssl.mzstatic.com/image/thumb/_VWBeTzPLn6LeyUjlTaSiQ/738x416.webp",
+     },{
+         imgUrl:"https://is5-ssl.mzstatic.com/image/thumb/X19Y90BV3y8hsFvF0l7Qmg/738x416.webp",
+     },{
+         imgUrl:"https://is4-ssl.mzstatic.com/image/thumb/L4WNJNV3nbmyAL6MQSeGuw/738x416.webp",
+     },{
+         imgUrl:"https://is4-ssl.mzstatic.com/image/thumb/Iz8wdsRXYRysnRRCY0yMrA/738x416.webp",
+     },{
+         imgUrl:"https://is5-ssl.mzstatic.com/image/thumb/HSPjQEW5mDqwAbMbbhfNOQ/738x416.webp",
+     },{
+         imgUrl:"https://is4-ssl.mzstatic.com/image/thumb/AmQ1cNEzc1DMKH25B5J9aQ/738x416.webp",
+     },{
+         imgUrl:"https://is2-ssl.mzstatic.com/image/thumb/vB48H4eBprLJ-WdCBTA6cw/738x416.webp",
+     },{
+         imgUrl:"https://is4-ssl.mzstatic.com/image/thumb/vWs6dt5xDhG_DjIoc-89tA/738x416.webp",
+     },{
+         imgUrl:"https://is4-ssl.mzstatic.com/image/thumb/UPoQbHoPte_TFJXEvKIIsw/738x416.webp",
+     },{
+         imgUrl:"https://is3-ssl.mzstatic.com/image/thumb/3iAbZQ4pznOpDRenkvOhNA/738x416.webp",
+     },{
+         imgUrl:"https://is2-ssl.mzstatic.com/image/thumb/SEsiWD2cTDShiJqUtRPAxg/738x416.webp",
+     },{
+         imgUrl:"https://is1-ssl.mzstatic.com/image/thumb/VXktJkcnADdcq8RjZVT_nw/738x416.webp",
+     },{
+         imgUrl:"https://is5-ssl.mzstatic.com/image/thumb/NHLksWLSZpTcIw36-n7vWA/738x416.webp",
+     },{
+         imgUrl:"https://is1-ssl.mzstatic.com/image/thumb/yXhlXOFkS9yJ1kMmOhfIbg/738x416.webp",
+     },
+ ];
+ picData.map(function(reap){
+    var div=document.createElement("div");
+
+     var imgUrl=document.createElement("img");
+     imgUrl.setAttribute("src",reap.imgUrl);
+     imgUrl.setAttribute("id","img2")
+ 
+     div.append(imgUrl);
+     document.querySelector("#aman13").append(div);
+
+ });
+ var flkty = new Flickity("#aman13", {
+        pageDots:false,
+        groupCells:true,
+        groupCells:5,
+      initialIndex:0,
+    });
+    var divvData= [
+     {
+        img_url:"https://is4-ssl.mzstatic.com/image/thumb/aL4CRIoWJCAnFGzkX6dyTw/492x492bb.webp",
+        name2:"Denzel Washington",
+    },
+    {
+        img_url:"https://is2-ssl.mzstatic.com/image/thumb/IzDsLB0rohl0Id7ZUHh6Jg/492x492bb.webp",
+        name2:"Frances Macdormand",
+    },
+    {
+        img_url:"https://is4-ssl.mzstatic.com/image/thumb/S5kEiRSwLpyMyFwfWw9CDA/492x492bb.webp",
+        name2:"Bartie Carvel",
+    },
+    {
+        img_url:"https://is5-ssl.mzstatic.com/image/thumb/uGEGNeIghlYIfH-iKPp2Mg/492x492bb.webp",
+        name2:"Alex Hessel",
+    },{
+        img_url:"https://is3-ssl.mzstatic.com/image/thumb/mB7gZ8IUvXlsZdqhf7mIHA/492x492bb.webp",
+        name2:"Kathren Hunter", 
+    },{
+        img_url:"https://is4-ssl.mzstatic.com/image/thumb/3Dn4FTH3OBodd88AhQAqgg/492x492ve.webp",
+        name2:"Herry Melling",
+    },{
+        img_url:"https://is5-ssl.mzstatic.com/image/thumb/vyFYGSAsGFhyM68EOq99nA/1679x945sr.webp",
+        name2:"Bredan Glesson",
+    },{
+        img_url:"https://is2-ssl.mzstatic.com/image/thumb/8zELDx5NVeX06XnRoYlN3w/492x492bb.webp",
+        name2:"Melis Henderson",
+    },{
+        img_url:"https://is4-ssl.mzstatic.com/image/thumb/jpGiIaaZlbOFkYemJOCM8g/492x492ve.webp",
+        name2:"Moses Ingram",
+    },{
+        img_url:"https://is3-ssl.mzstatic.com/image/thumb/Lc9IKFwfN81DX1FlU8mH1Q/492x492bb.webp",
+        name2:"Ralpha Ineson",
+    },{
+        img_url:"https://is4-ssl.mzstatic.com/image/thumb/WyMCAHCMlHSsfK7nS2U8mg/492x492ve.webp",
+        name2:"Jefferson Mays",
+    },{
+        img_url:"https://is4-ssl.mzstatic.com/image/thumb/S-w6I82Kq8NT9ggqe2UiFw/492x492ve.webp",
+        name2:"Stephen Root", 
+    },{
+        img_url:"https://is3-ssl.mzstatic.com/image/thumb/xMIDCylYFuif6kqvJ-oNWg/492x492ve.webp",
+        name2:"Scott Subiona", 
+    },{
+        img_url:"https://is1-ssl.mzstatic.com/image/thumb/bgG0MM4qE5ur-VQdEVNUTg/492x492bb.webp",
+        name2:"Brain Thompson", 
+    },{
+        img_url:"https://is1-ssl.mzstatic.com/image/thumb/J6lWi6it5gmH8bQMkzsuPQ/492x492bb.webp",
+        name2:"Lucas Barker", 
+    },{
+        img_url:"https://is4-ssl.mzstatic.com/image/thumb/lg8Zal2SiOlTDADhmfZymw/492x492bb.webp",
+        name2:"Ethan Hutchison", 
+    },{
+        img_url:"https://is1-ssl.mzstatic.com/image/thumb/A94tPfPtyugKmmcQnzPbgg/492x492ve.webp",
+        name2:"James Udom", 
+    },{
+        img_url:"https://is2-ssl.mzstatic.com/image/thumb/c3U0YpS4AebEnDPVMvuEmQ/492x492bb.webp",
+        name2:"Richard Short", 
+    },{
+        img_url:"https://is4-ssl.mzstatic.com/image/thumb/ADrie0uOOOVegNXe4w1-wQ/492x492bb.webp",
+        name2:"Sean Patrick", 
+    },
+];
+divvData.map(function(trap1){
+    var div=document.createElement("div");
+    div.setAttribute("id","rat1");
+
+    var img_url=document.createElement("img");
+    img_url.setAttribute("src",trap1.img_url);
+    img_url.setAttribute("id","rat");
+
+    var name2=document.createElement("p");
+    name2.textContent=trap1.name2;
+    name2.setAttribute("id","rat2")
+
+    div.append(img_url,name2);
+    document.querySelector("#aman15").append(div);
+});
+var flkty4 = new Flickity("#aman15", {
+        pageDots:false,
+        groupCells:true,
+        groupCells:10,
+      initialIndex:0,
+    });
+
+</script>

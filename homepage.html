@@ -1,0 +1,2430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/629044acfa.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    
+    <link rel="stylesheet" href="aditya_apple_tv.css" />
+
+   <style>
+        /* external css: flickity.css */
+      /* navbar
+      navbar
+      navbar */
+      
+.vm-1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 5px;
+    position: fixed;
+    overflow: hidden;
+    top: 0; 
+    
+}
+.c-1{
+    width: 50px;
+    height: 40px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.c-1>img{
+    width: 100%;
+    height: 100%;
+}
+.c-2{
+    width: 90px;
+    height: 28px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 5px;
+    margin-right: 50px;
+    display: flex;
+    
+}
+.c-2[onclick] {
+  cursor: pointer;
+}
+.c-2 .pnav{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 2px;
+    margin: auto;
+    margin-left: 0px;
+}
+.c-2 #navbar{
+    font-size: 10px;
+    margin-left: 0px;
+    margin: auto;
+}         
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "-apple-system",BlinkMacSystemFont,"-webkit-system-font","Malgun Gothic","Segoe UI","Helvetica Neue",Helvetica,sans-serif
+    }
+ #ritikmainbox{
+   margin-top:50px;
+
+ }
+    .carousel {
+      background: #fafafa;
+    }
+    .carousel-cell {
+      width: 350px;
+      height: 170px;
+      padding: 2px;
+      margin: 4px;
+      border-radius: 25px;
+    }
+       #amancontainer{
+           background-image:url("https://is5-ssl.mzstatic.com/image/thumb/Features114/v4/1c/30/cc/1c30cc8f-0ead-1bdf-e01d-c6d0de6f892a/Q1NILVRWQS1XVy1BVFZfUGx1cy1UZWRfTGFzc28ucG5n.png/1679x945sr.jpg") ;
+           height:900px;
+           display: flex;
+           flex-direction: column;
+           justify-content: end;
+           margin-left: -8px;
+           margin-right: -8px;
+          padding-bottom: 50px;
+         
+        ;}
+        #ritikhead{
+          text-align: center;
+
+        }
+        #ritikhead > h1{
+          font-size: 75px;
+        }
+        #ritikhead > p{
+          font-size: 10px;
+        }
+        #ritikhead > button{
+          margin: auto;
+          font-size: 1.5rem;
+          height: 49px;
+          border-radius: 6px;
+          width: 200px;
+          border: none;
+
+        }
+       #amancontainer>div{
+          color:white; }
+       #ah1{
+           margin-top:550px;
+           text-align: center;
+           font-size: 80px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+       #ah2{
+           font-size:30px;
+           margin-bottom:40px;
+           line-height:1px;
+           text-align: center; 
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+      
+       #arol{
+           text-align: center;
+           line-height:1px;}
+       #arol1{
+           text-align: center;
+           line-height:3px; }
+       .aman{
+           margin-left:20px;
+         }
+         
+       /* .aman>div>div{
+          margin-left:20px;
+          width:200px; } */
+       #aimage21{
+            height:130px;
+            width: 200px;
+            border-radius:5px;}
+       #ah4{
+           font-size:14px;
+           color:grey;
+           margin-bottom:-10px;
+           line-height:15px; 
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   }
+      #ah3{
+          font-size:20px;
+           margin-bottom:-15px;
+          font-weight:normal;
+         }
+      #trm{
+          margin-left:20px; }
+      #aman1{
+       margin-left:20px;
+      }
+   #aimg2{
+                height:140px;
+                width:250px;
+                border-radius:5px;
+                margin-left:20px; }
+    #aride{
+        color:grey;
+        font-size:20px;
+        margin-top:15px;
+        margin-left:20px;
+        line-height:1px; }
+   
+    #aimge1{
+        height:100%;
+        width:22%;
+        margin-left:10px;
+        margin-top:20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius:12px;
+        background-image:url("https://is5-ssl.mzstatic.com/image/thumb/Features115/v4/67/fc/50/67fc50fe-2185-ec09-c07e-ef63349d5553/U0YtVFZBLVdXLVRlZF9MYXNzby1TMi1TdXN0YWluLmxzcg.lsr/1478x832fe.webp");
+    }
+    #aimge2{
+        height:100%;
+        width:22%;
+        margin-left:10px;
+        margin-top:20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius:12px;
+        background-image: url("https://is2-ssl.mzstatic.com/image/thumb/Features126/v4/f5/37/ab/f537abee-6714-d25f-db95-99a0dcc3cc84/U0YtVFZBLVdXLURpY2tpbnNvbi1TMy1MYXVuY2gubHNy.lsr/1478x832fe.webp");
+    }
+    #aimge3{
+        height:100%;
+        width:22%;
+        margin-left:10px;
+        margin-top:20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius:12px;
+        background-image: url("https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/c0/65/6d/c0656d2b-be27-710c-3154-dcfcf36d07d3/Q09EQV9Mb3ZlWW91LUxhdW5jaC5sc3I.lsr/1478x832fe.webp");
+    }
+    #aimge4{
+        height:100%;
+        width:22%;
+        margin-left:10px;
+        margin-top:20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius:12px;
+        background-image: url("https://is5-ssl.mzstatic.com/image/thumb/Features116/v4/b5/1f/1b/b51f1b22-3ee5-f05f-35d2-eb73b7aec627/U0YtVFZBLVdXLVRoZV9UcmFnZWR5X29mX01hY2JldGgtTGF1bmNoLmxzcg.lsr/1478x832fe.webp");
+    }
+    #aimge5{
+        height:100%;
+        width:22%;
+        margin-left:10px;
+        margin-top:20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius:12px;
+        background-image: url("https://is2-ssl.mzstatic.com/image/thumb/Features114/v4/d8/34/2e/d8342eaf-b04c-9a73-651a-11240f483946/U0YtVFZBLVdXLUZvcl9BbGxfTWFua2luZF9TMl9MYXVuY2gubHNy.lsr/1478x832fe.webp");
+    }
+    #aimge6{
+        height:100%;
+        width:22%;
+        margin-left:10px;
+        margin-top:20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius:12px;
+        background-image: url("https://is2-ssl.mzstatic.com/image/thumb/Features115/v4/b4/6c/f3/b46cf3f9-9529-9b2b-73df-0006de6714d7/U0YtVFZBLVdXLVRoZV9WZWx2ZXRfVW5kZXJncm91bmQtQ1NfMS5sc3I.lsr/1478x832fe.webp");
+    }
+    #aimge7{
+        height:100%;
+        width:22%;
+        margin-left:10px;
+        margin-top:20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius:12px;
+        background-image: url("https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/d7/6c/6a/d76c6a5b-bbdb-16bf-d4a6-d1b9be447236/U0YtVFZBLVdXLUFDQVBVTENPLmxzcg.lsr/1478x832fe.webp");
+    }
+    #aimge8{
+        height:100%;
+        width:22%;
+        margin-left:10px;
+        margin-top:20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius:12px;
+        background-image: url("https://is4-ssl.mzstatic.com/image/thumb/Features125/v4/43/63/cf/4363cff9-62dd-7c01-0fe0-e30c850408fd/U0YtVFZBLVdXLU15dGhpY19RdWVzdF9TMl9MYXVuY2gubHNy.lsr/1478x832fe.webp");
+    }
+    
+    #aman2{
+       height:180px;
+       width:95%;
+        margin-left:20px;
+        border-radius:30px;
+      
+    }
+    #aman3{   background-image:url("https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/98/47/bb/9847bb31-bf71-abeb-ccc6-1cc5de24ebe8/RUlXLVRWQS1XVy1BVFZQbHVzX01vdmllX05pZ2h0LWxhbmc9ZW5fdXMucG5n.png/999x374sr.webp");
+          height:500px;
+          margin-top:50px;
+        
+      
+         }
+    #apret{
+        color:white;
+        margin-left:50px;
+        
+          padding:150px 0px 0px 0px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #apret1{
+       margin-left:50px;
+    
+        color: whitesmoke;
+        text-align:justify;
+        height:100px;
+        width: 500px;
+        font-size:18px;
+        line-height:25px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+       
+    #arat{
+        height:110px;
+        width:200px;
+        margin-left:20px;
+        border-radius:10px;
+        /* padding-top:270px; */
+       
+    }
+    #arat2{
+        color:white;
+        font-size:13px;
+        margin-left:20px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height:1px;
+    }
+    #aman4{
+        display:grid;
+       grid-template-columns:repeat(5,1fr);
+       grid-template-rows:100px;
+       grid-gap:10px;
+    }
+    #aman5{
+       
+       margin-top:250px; 
+       margin-left:30px;
+    }
+    .button {
+      font-size: 22px;
+    }
+    #aman6{
+        display:grid;
+        grid-template-columns:210px 250px;
+    }
+    #aman7{
+        height:100%;
+        width:100%;
+        margin-right:30px;
+       
+    }
+    #rahu1{
+         text-align:center;
+         color:white;
+         margin-top:160px;
+         font-weight: bold;
+    }
+    /* riyaz */
+    /* riyaz */
+    /* riyaz */
+    /* riyaz */
+     
+hr{margin: 0px 35px;}
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+
+/* heading 1 style */
+
+.carouselriyaz{margin-left: 9px;
+margin-right: 35px;}
+.carousel-cell1 {
+  width: 31%;
+  height: 115px;
+  margin-right: 30px;
+  border-radius: 5px;
+  display: flex;
+}
+.carousel-cell1>img{height: 96%;
+width: 50%;
+border-radius: 10px;
+margin-left: 12px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+cursor: pointer;
+}
+
+.textbox>.ganre{margin: 4px; 
+font-size: 1%;
+color: rgba(128, 128, 128, 0.494);}
+.textbox>.name{margin: 4px;
+font-weight: normal;
+font-size: 16px;}
+.textbox>.detail{font-size: 10px;
+margin: 4px;
+color: rgba(128, 128, 128, 0.569);}
+.textbox{margin-left: 8px;
+margin-top: 6px;}
+#heading1{
+  margin: 5px;
+  margin-left: 35px;
+}
+
+
+
+
+/* heading 2 style */
+.carouselriyaz2{
+  margin-right: 35px;
+}
+.carousel-cell2 {
+  width: 18.5%;
+  height: 130px;
+  margin-right: 14px;
+  border-radius: 5px;
+}
+.carousel-cell2>img{height: 100%;
+width: 100%;
+margin-left: 20px;
+border-radius: 10px;}
+#heading2{
+  margin: 5px;
+  margin-left: 35px;
+}
+
+
+
+
+
+/* heading 3 style */
+
+/* prevent vertical scroll bar glitch */
+html { overflow-y: scroll; }
+
+.carouselriyaz3 {
+  margin: 0px 35px;
+  border-radius: 10px;
+}
+
+.carousel-cell3 {
+  width: 100%;
+  height: 450px;
+  margin-right: 20px;
+  
+  border-radius: 10px;
+  cursor: pointer;
+  counter-increment: gallery-cell;
+}
+.carousel-cell3>img{
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+/* heading 4 style */
+
+.carouselriyaz4{
+  margin-right: 35px;
+}
+.carousel-cell4 {
+  width: 18.5%;
+  height: 130px;
+  margin-right: 14px;
+  border-radius: 5px;
+}
+.carousel-cell4>img{height: 100%;
+width: 100%;
+margin-left: 20px;
+border-radius: 10px;}
+
+#heading4{
+  margin: 5px;
+  margin-left: 40px;
+}
+
+
+
+
+/* heading 5 style */
+
+.carouselriyaz5{
+  margin-right: 35px;
+}
+.carousel-cell5 {
+  width: 18.5%;
+  height: 130px;
+  margin-right: 14px;
+  border-radius: 5px;
+}
+.carousel-cell5>img{height: 100%;
+width: 100%;
+margin-left: 20px;
+border-radius: 10px;}
+
+#heading5{
+  margin: 5px;
+  margin-left: 40px;
+}
+
+
+
+
+
+/* heading 6 style */
+
+.carouselriyaz6{
+  margin-right: 35px;
+}
+.carousel-cell6 {
+  width: 18.5%;
+  height: 130px;
+  margin-right: 14px;
+  border-radius: 5px;
+}
+.carousel-cell6>img{height: 100%;
+width: 100%;
+margin-left: 20px;
+border-radius: 10px;}
+
+#heading6{
+  margin: 5px;
+  margin-left: 40px;
+}
+
+/* vishesh */
+/* vishesh */
+/* vishesh */
+/* vishesh */
+
+
+ #ritikdiv{
+   background-color: black;
+ }
+        #main-1 {
+            width: 550px;
+            height: auto;
+            margin: auto;
+            background-color: black;
+            /* border: 1px solid red; */
+        }
+
+        .img-1 {
+            width: 60px;
+            height: 58px;
+            border: 6px solid black;
+            background-color: white;
+            border-radius: 28px;
+            margin: auto;
+            margin-bottom: 40px;
+
+        }
+
+        .img-1 img {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            color: white;
+            margin: 0px;
+        }
+
+        .p-1 {
+            color: white;
+            width: 60%;
+            margin: auto;
+        }
+
+        .p-1 p,h1 {
+            text-align: center;
+            font-family: sans-serif;
+        }
+        .h12{
+            text-align: center;
+            color: white;
+            font-family: sans-serif;
+        }
+
+        .p141{
+            color: white;
+            text-align: center;
+            font-size: 19px;
+            font-family: sans-serif;
+        }
+
+        .a-2 {
+            width: 180px;
+            margin: auto;
+
+        }
+
+        .a-2 a {
+            color: rgb(25, 156, 207);
+            text-decoration: none;
+            font-size: 14px;
+            /* margin: auto; */
+            margin-bottom: 10px;
+            font-family: sans-serif;
+        }
+
+        .a-2 a:first-child {
+            margin: 20px;
+        }
+
+        .a-1 {
+            width: 180px;
+            margin: auto;
+        }
+
+        .a-1 a {
+            color: rgb(25, 156, 207);
+            text-decoration: none;
+            font-size: 14px;
+            margin: auto;
+            font-family: sans-serif;
+        }
+
+        .main-2 {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            width: 90%;
+            margin: auto;
+            height: 100px;
+            grid-gap: 10px;
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+
+        .main-2>div {
+            /* border: 1px solid red; */
+            cursor: pointer;
+        }
+
+        .m1 img {
+            height: 60%;
+            width: 80%;
+            margin: 5px;
+            background-color: black;
+        }
+
+        .m1 p {
+            color: white;
+            text-align: center;
+            margin: 0px;
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+
+        .m2 img {
+            height: 50%;
+            width: 100%;
+            /* margin: 5px; */
+            background-color: black;
+        }
+
+        .m2 p {
+            color: white;
+            text-align: center;
+            margin: 4px;
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+
+        .main-3 {
+            display: flex;
+            /* border: 1px solid red; */
+            width: 90%;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        .main-3>div {
+            /* border: 1px solid red; */
+            width: 28%;
+            height: 50px;
+            height: 200px;
+            margin: 15px;
+        }
+
+        .m3 img {
+            width: 70%;
+            margin: 19.5px;
+            height: 40%;
+            margin-bottom: 0px;
+
+        }
+
+        .m4 img {
+            width: 90%;
+            margin: 15px;
+            height: 40%;
+            margin-bottom: 0px;
+
+        }
+
+        .m3 p {
+            margin: 2px;
+            font-size: 20px;
+        }
+
+        .m4 p {
+            margin: 3px;
+            font-size: 20px;
+        }
+        .p-3{
+            margin-top: 15px;
+            /* border: 1px solid red; */
+        }
+
+        .p-3 p {
+            margin: 5px;
+            color: gray;
+            font-size: 15px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 17px;
+            font-family: sans-serif;
+        }
+
+        .m3 p:nth-child(2) {
+            font-size: 15px;
+            font-weight: bold;
+            /* margin: 10px; */
+        }
+
+        .m4 p {
+            font-size: 15px;
+            font-weight: bold;
+            margin: 5px;
+            text-align: center;
+            
+
+        }
+
+        .p10 {
+            font-size: 10px;
+            margin-top: 10px;
+        }
+
+        .main-5 {
+            background-color: white;
+            width: 100%;
+            height: 80px;
+            margin-top: 40px;
+        }
+
+        .main-12 {
+            color: black;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .p30 p:nth-child(1) {
+            margin: 5px;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+
+        .main-12 p {
+            color: black;
+        }
+
+        .p31 {
+            display: flex;
+            color: black;
+        }
+
+        .p31 p {
+            font-size: 12px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .p31>div {
+            margin-top: 12px;
+            border-right: 1.5px solid gray;
+            /* margin-top: 10px; */
+            width: 2px;
+            height: 10px;
+        }
+
+        .p01 {
+            margin-right: 10px;
+            font-size: 15px;
+        }
+
+        .cl-1 {
+            background-color: black;
+            width: 100%;
+            height: 30px;
+            /* position: fixed; */
+        }
+
+        .main-13 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* border: 1px solid red; */
+            margin-top: 30px;
+            grid-gap: 5px;
+
+        }
+
+        .main-13>div {
+            height: 230px;
+        }
+
+        .m91 {
+            width: 100%;
+            height: 100%;
+            /* margin-top: 20px; */
+            margin-bottom: 20px;
+
+        }
+
+        .img-12 {
+            width: 45%;
+            height: 30%;
+            margin: auto;
+            margin-bottom: 0px;
+            /* border: 1px solid red; */
+        }
+
+        .img-12 img {
+            width: 100%;
+            height: 100%;
+            /* margin-bottom: 50spx; */
+        }
+
+        .p121 {
+                margin-top: 30px;
+                margin-bottom: 5px;
+                font-family: sans-serif;
+                color: white;
+                text-align: center;
+                font-size: 20px;
+            }
+
+        .m92 {
+            width: 100%;
+            height: 100%;
+            /* margin-top: 20px; */
+            margin-bottom: 20px;
+        }
+
+        .img-13 {
+            width: 60%;
+            height: 32%;
+            margin: auto;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            /* border: 1px solid red; */
+        }
+
+        .img-13 img {
+            width: 100%;
+            height: 100%;
+            margin-top: 0px;
+        }
+        .p122 {
+                margin-top: 30px;
+                margin-bottom: 5px;
+                color: white;
+                text-align: center;
+                font-size: 20px;
+                font-family: sans-serif;
+            }
+
+        .p01 p {
+            font-size: 15px;
+        }
+
+        @media only screen and (min-width:320px) and (max-width:720px) {
+            .main-2 {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                width: 70%;
+                margin: auto;
+                height: 230px;
+                grid-gap: 2px;
+                margin-top: 15px;
+                /* margin-bottom: 25px; */
+                margin-bottom: 20px;
+                /* border: 1px solid red; */
+            }
+            .main-5{
+                margin-top: 4px;
+            }
+
+            .main-3 {
+                display: flex;
+                /* border: 1px solid red; */
+                width: 100%;
+                margin: auto;
+                margin-top: 10px;
+            }
+
+            .main-3>div {
+                /* border: 1px solid red; */
+                width: 28%;
+                height: 50px;
+                height: 200px;
+                margin: 15px;
+            }
+
+            .m3 img {
+                width: 150px;
+                margin: 10px;
+                height: 40%;
+                margin-bottom: 0px;
+
+            }
+
+            .m4 img {
+                width: 90%;
+                margin: 3px;
+                height: 40%;
+                margin-bottom: 0px;
+
+            }
+
+            .main-13 {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                /* border: 1px solid red; */
+                margin-top: 20px;
+                margin-bottom: 0px;
+                grid-gap: 5px;
+                /* border: 1px solid red; */
+
+            }
+
+            .main-13>div {
+                height: 230px;
+                /* border: 1px solid red; */
+                /* margin: 10px; */
+            }
+
+            .m91 {
+                width: 100%;
+                height: 100%;
+            }
+
+            .img-12 {
+                width: 110px;
+                height: 35%;
+                margin: auto;
+                margin-bottom: 0px;
+            }
+
+            .img-12 img {
+                width: 90%;
+                margin: 5px;
+                height: 100%;
+            }
+
+            .p121 {
+                margin: 8px;
+                margin-top: 20px;
+                font-family: sans-serif;
+                color: white;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            .m92 {
+                width: 100%;
+                height: 100%;
+            }
+
+            .img-13 {
+                width: 120px;
+                height: 30%;
+                margin: auto;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                /* border: 1px solid red; */
+            }
+
+            .img-13 img {
+                width: 100%;
+                height: 100%;
+                margin-top: 0px;
+            }
+
+            .p122 {
+                margin-top: 20px;
+                color: white;
+                text-align: center;
+                font-size: 20px;
+                font-family: sans-serif;
+            }
+            .m1{
+                width: 110px;
+                height: 90px;
+                /* border: 1px solid red; */
+            }
+            
+        .m1 img {
+            height: 50%;
+            width: 80%;
+            background-color: black;
+        }
+        .m2{
+            width: 100px;
+            height: 90px;
+            /* border: 1px solid red; */
+        }
+      }
+    </style>
+   </style>
+</head>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<body>
+  <!-- navbar
+  navbar navbar
+  navbar -->
+  <div id="applemaincontanier">
+  <div class="vm-1">
+    <div class="c-1"><img src="	https://tv.apple.com/assets/brands/Apple_TV_plus_logo_white-2721485772b7d06c4e33379ce990870e.svg" alt=""></div>
+    <div class="c-2" onclick="mynavbar()";>
+        
+        <i class="fas fa-user" id="navbar"></i>
+         <div class="pnav">Sing in</div>
+    
+    </div>
+    
+  </div>
+    <!-- aman -->
+    <!-- aman -->
+    <!-- aman -->
+    <div id="ritikmainbox">
+    <div id="amancontainer">
+      <div id="ritikhead">
+        <h1 id="ritikh1">All Apples Originals.</h1>
+        <h2 id="ritikh2">Exculive on Apple TV+. Watch here and on the Apple TV app across your devices.</h2>
+        <button id="abot">Start Free Trial</button>
+        <p id="ritikp">7 days free,then Rs.99/month.</p>
+        <p id="ritikp1">Or three months free when you buy an eligible apple device. Terms Apply. Some titles coming later to Apple TV+</p>
+        </div>
+    </div>
+    <h3 id="trm">Latest Original</h3>
+    <div class="aman" ></div>
+    <hr/>
+    <h3 id="trm">Watch Entire Seasons</h3>
+    <div id="aman1"></div>
+    <hr/>
+    <h3 id="trm">Best 2021</h3>
+    <h4 id="ride">The critics have spoken. Expolre their favorite series and films of the year</h4>
+   <div id="aman2">
+       
+       <div id="aimge1"><p id="rahu1">Esquire</p></div>
+       <div id="aimge2"></div>
+       <div id="aimge3"></div>
+       <div id="aimge4"></div>
+       <div id="aimge5"></div>
+       <div id="aimge6"></div>
+       <div id="aimge7"></div>
+       <div id="aimge8"></div>
+   </div>
+   <div id="aman3"> 
+       <div id="aman4"></div>
+       <div id="aman5"></div>
+   </div>
+<!-- riyaz -->
+
+<!-- riyaz -->
+<!-- riyaz -->
+
+<!-- riyaz -->
+<!-- riyaz -->
+
+<!-- riyaz -->
+<!-- heading 1 html -->
+<br>
+<hr>
+<h5 id="heading1">Extraordnery Pepole</h5>
+  <div class="carouselriyaz" data-flickity='{ "groupCells": 3, "draggable": false, "pageDots": false, "wrapAround": false}'>
+    <div class="carousel-cell1" onclick="window.location.href='https://tv.apple.com/us/show/becoming-you/umc.cmc.2eln6544k8wo99s3vrdl5amwf?ctx_brand=tvs.sbd.4000'">
+      <img src="https://is4-ssl.mzstatic.com/image/thumb/qth_eNoJqMWbjMUyn16jpA/1478x832.webp" alt="">
+      <div class="textbox">
+        <p class="ganre">DOCUMENTARY</p>
+        <H6 class="name">Becoming You</H6>
+        <p class="detail">Olivia colman narrates this docuseries about how kids grow in their first five years.</p>
+      </div>
+    </div>
+    <div class="carousel-cell1"  onclick="window.location.href='dear.html'">
+      <img src="https://is3-ssl.mzstatic.com/image/thumb/sMiAQsUj7wKXMluwwFXobQ/1478x832.webp" alt="">
+      <div class="textbox">
+        <p class="ganre">DOCUMENTARY</p>
+        <H6 class="name">Dear...</H6>
+        <p class="detail">Profiles of 10 game-changing icons and those whose lives they've inspired.</p>
+      </div>
+    </div>
+    <div class="carousel-cell1" onclick="window.location.href='https://tv.apple.com/us/show/the-me-you-cant-see/umc.cmc.4amwght1qtt8ioilwr0mgnf6d?ctx_brand=tvs.sbd.4000'">
+      <img src="https://is5-ssl.mzstatic.com/image/thumb/uBU112xIP48X2tW5EbpGGQ/1478x832.webp" alt="">
+      <div class="textbox">
+        <p class="ganre">DOCUMENTARY</p>
+        <H6 class="name">The Me You Can't See</H6>
+        <p class="detail">Oprah and Prince harry guide honest discussions about mental health.</p>
+      </div>
+    </div>
+    <div class="carousel-cell1" onclick="window.location.href='https://tv.apple.com/us/show/home/umc.cmc.5xjrgoblr5l5i1ypamtayuhe9?ctx_brand=tvs.sbd.4000'">
+      <img src="https://is1-ssl.mzstatic.com/image/thumb/1hOcr3gchtyju9nzwvFcAg/1478x832.webp" alt="">
+      <div class="textbox">
+        <p class="ganre">DOCUMENTARY</p>
+        <H6 class="name">Home</H6>
+        <p class="detail">Discover the stories and ideas behind the world's most imaginative dwellings.</p>
+      </div>
+    </div>
+    <div class="carousel-cell1" onclick="window.location.href='https://tv.apple.com/us/show/visible-out-on-television/umc.cmc.1zkna505r4jre6fh7mjcncio0?ctx_brand=tvs.sbd.4000'">
+      <img src="https://is5-ssl.mzstatic.com/image/thumb/RMn-3IiFm6XMOJZT3tP8fA/1478x832.webp" alt="">
+      <div class="textbox">
+        <p class="ganre">DOCUMENTARY</p>
+        <H6 class="name">Visible: Out on Television</H6>
+        <p class="detail">Explore the history of the LGBTQ movement through the lens of TV.</p>
+      </div>
+    </div>
+    <div class="carousel-cell1" onclick="window.location.href='https://tv.apple.com/us/show/greatness-code/umc.cmc.4xpk6thd1574yu8hy2xdozyz6?ctx_brand=tvs.sbd.4000'">
+      <img src="https://is2-ssl.mzstatic.com/image/thumb/jER5ceAuuLVFije5LmLVLw/1478x832.webp" alt="">
+      <div class="textbox">
+        <p class="ganre">DOCUMENTARY</p>
+        <H6 class="name">Greatness Code</H6>
+        <p class="detail">Seven iconic athletes reveal the pivotal career moment they touched greatness.</p>
+      </div>
+    </div>
+    <div class="carousel-cell1" onclick="window.location.href='https://tv.apple.com/us/show/the-oprah-conversation/umc.cmc.49yt85r7ow6904u0177r694qy?ctx_brand=tvs.sbd.4000'">
+      <img src="https://is3-ssl.mzstatic.com/image/thumb/6MFkEmAhzwoAZfThq0xWHA/1478x832.webp" alt="">
+      <div class="textbox">
+        <p class="ganre">TALK SHOW</p>
+        <H6 class="name">The Oprah Conversation</H6>
+        <p class="detail">Intimate discussions with newsmakers, thought leaders, and masters of craft.</p>
+      </div>
+    </div>
+    <div class="carousel-cell1" onclick="window.location.href='https://tv.apple.com/us/movie/dads/umc.cmc.5voyewgcndqj0a3i9mp7hbloq?ctx_brand=tvs.sbd.4000'">
+      <img src="https://is5-ssl.mzstatic.com/image/thumb/QYnchKIdrKG_b0lkikPUSw/1478x832.webp" alt="">
+      <div class="textbox">
+        <p class="ganre">DOCUMENTARY</p>
+        <H6 class="name">Dads</H6>
+        <p class="detail">Bryce Dallas Howard's doc is a joyful, star-studded look at being a dad today.</p>
+      </div>
+    </div>
+   
+  </div>
+  <br>
+  <hr>
+
+
+
+<!-- heading 2 html -->
+
+  <h5 id="heading2">The Hero Within</h5>
+  <div class="carouselriyaz2" data-flickity='{ "groupCells": 5, "draggable": false, "pageDots": false }'>
+    <div class="carousel-cell2">
+      <img src="https://is4-ssl.mzstatic.com/image/thumb/RP47edx-hRW2rCun48Lx2w/738x416.webp" alt="">
+    </div>
+    <div class="carousel-cell2">
+      <img src="https://is2-ssl.mzstatic.com/image/thumb/2lfdtvo9bvduvVLrbcASow/738x416.webp" alt="">
+    </div>
+    <div class="carousel-cell2">
+      <img src="https://is4-ssl.mzstatic.com/image/thumb/qth_eNoJqMWbjMUyn16jpA/738x416.webp" alt="">
+    </div>
+    <div class="carousel-cell2">
+      <img src="https://is5-ssl.mzstatic.com/image/thumb/uBU112xIP48X2tW5EbpGGQ/738x416.webp" alt="">
+    </div>
+    <div class="carousel-cell2">
+      <img src="https://is1-ssl.mzstatic.com/image/thumb/fwOVLEMoZhr-wkppMR12XA/738x416.webp" alt="">
+    </div>
+    <div class="carousel-cell2">
+      <img src="https://is2-ssl.mzstatic.com/image/thumb/jER5ceAuuLVFije5LmLVLw/738x416.webp" alt="">
+    </div>
+    <div class="carousel-cell2">
+      <img src="https://is3-ssl.mzstatic.com/image/thumb/FPk1ym0HabNrpWLpYYBF5g/738x416.webp" alt="">
+    </div>
+  </div>
+  <br>
+  
+
+
+<!-- heading 3 html -->
+
+  <h5 id="heading3"></h5>
+<div class="carouselriyaz3" data-flickity='{"pageDots":false}'>
+  <div class="carousel-cell3" onclick="window.location.href='page.html'" >
+    <img src="https://i.ibb.co/GQ3Bc1G/Screenshot-793.png" alt="">
+  </div>
+  <div class="carousel-cell3"  onclick="window.location.href='page.html'">
+    <img src="https://i.ibb.co/xmY2Q7M/Screenshot-801.png" alt="">
+  </div>
+  <div class="carousel-cell3">
+    <img src="https://i.ibb.co/WVHvQ7x/Screenshot-802.png" alt="">
+  </div>
+  <div class="carousel-cell3"  onclick="window.location.href='page.html'">
+    <img src="https://i.ibb.co/H7FdmTg/Screenshot-803.png" alt="">
+  </div>
+  <div class="carousel-cell3">
+    <img src="https://i.ibb.co/ZzVHfN6/Screenshot-804.png" alt="">
+  </div>
+  <div class="carousel-cell3">
+    <img src="https://i.ibb.co/3WCFxQ7/Screenshot-805.png" alt="">
+  </div>
+  <div class="carousel-cell3">
+    <img src="https://i.ibb.co/HxT73Wq/Screenshot-806.png" alt="">
+  </div>
+  <div class="carousel-cell3">
+    <img src="https://i.ibb.co/w47d9Ch/Screenshot-807.png" alt="">
+  </div>
+  <div class="carousel-cell3">
+    <img src="https://i.ibb.co/Sf6qtKs/Screenshot-808.png" alt="">
+  </div>
+  <div class="carousel-cell3">
+    <img src="https://i.ibb.co/gypZshC/Screenshot-809.png" alt="">
+  </div>
+  <div class="carousel-cell3">
+    <img src="https://i.ibb.co/YQY9D7v/Screenshot-810.png" alt="">
+  </div>
+</div>
+<br>
+<hr>
+
+  
+  
+<!-- heading 4 html -->
+
+<h5 id="heading4">All Feature Flims</h5>
+<div class="carouselriyaz4" data-flickity='{ "groupCells": 5, "draggable": false, "pageDots": false }'>
+  <div class="carousel-cell4">
+    <img src="https://is2-ssl.mzstatic.com/image/thumb/8593WFOGVTTA1ncIGrL37g/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is3-ssl.mzstatic.com/image/thumb/k-4X4dDwJrtXlsgr1VI_0w/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is3-ssl.mzstatic.com/image/thumb/xwiVfxV1l5Tfy6-1uQ25_Q/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/oANBVngpEJDvHRhdyozySA/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/zRCSBlp0LjwClRXsjyDNYQ/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Epzt9WNlE21aE-FNCoVj2w/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is2-ssl.mzstatic.com/image/thumb/D1SCGzM1ESBh-SIkHwcvUQ/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is3-ssl.mzstatic.com/image/thumb/fS85BR5uGUlTFLXLAWAMsg/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is2-ssl.mzstatic.com/image/thumb/s0GHu23qor3EapMRUh-4iw/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is5-ssl.mzstatic.com/image/thumb/KdlcNbBUOtf7sUXH5z9N8A/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/iNMKAaCahjd4PPdXo0D5iA/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is2-ssl.mzstatic.com/image/thumb/3UIt7-edNvHDrXR_FkZd6A/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/K-nsm8mEVNAAnevMTyya7g/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is5-ssl.mzstatic.com/image/thumb/97liMx1hwAc7jcp5zDXp8Q/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/CwpcQl754x9lwddZ9TXqmQ/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/fwOVLEMoZhr-wkppMR12XA/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/6fu6YRITQhblYxAGDfPR3A/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/2kwDdUMkGYVufGBF3g1hdA/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is5-ssl.mzstatic.com/image/thumb/QYnchKIdrKG_b0lkikPUSw/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/jRVuOiECbTmzx3HEVkbreA/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/jvpbfkNAZaLIN3DZJUDX8Q/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is5-ssl.mzstatic.com/image/thumb/Ru8FEVLXR20CLzgnt9UXOQ/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is5-ssl.mzstatic.com/image/thumb/iDoRIny_hEKEOksP68uLYQ/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is3-ssl.mzstatic.com/image/thumb/CurGU6004wvloeDxunoxyA/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell4">
+    <img src="https://is2-ssl.mzstatic.com/image/thumb/jbuAq3KUPjh27XucTemVxg/738x416.webp" alt="">
+  </div>
+  
+</div>
+<br>
+<hr>
+
+
+
+
+<!-- heading 5 html -->
+
+<h5 id="heading5">All Drama Series</h5>
+<div class="carouselriyaz5" data-flickity='{ "groupCells": true, "draggable": false, "pageDots": false }'>
+  <div class="carousel-cell5">
+    <img src="https://is3-ssl.mzstatic.com/image/thumb/AWDRdQz0nepFpnsUNiTDuw/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is5-ssl.mzstatic.com/image/thumb/NHLksWLSZpTcIw36-n7vWA/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is2-ssl.mzstatic.com/image/thumb/qYEYYvFXN2O4zEuCcBSbjw/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/UPoQbHoPte_TFJXEvKIIsw/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is5-ssl.mzstatic.com/image/thumb/X19Y90BV3y8hsFvF0l7Qmg/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is5-ssl.mzstatic.com/image/thumb/X19Y90BV3y8hsFvF0l7Qmg/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/VXktJkcnADdcq8RjZVT_nw/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is2-ssl.mzstatic.com/image/thumb/SEsiWD2cTDShiJqUtRPAxg/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/yXhlXOFkS9yJ1kMmOhfIbg/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is2-ssl.mzstatic.com/image/thumb/vB48H4eBprLJ-WdCBTA6cw/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/Iz8wdsRXYRysnRRCY0yMrA/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/AmQ1cNEzc1DMKH25B5J9aQ/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/mqP1mK0HzuFhIBXsd_Q_SA/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is5-ssl.mzstatic.com/image/thumb/HSPjQEW5mDqwAbMbbhfNOQ/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is5-ssl.mzstatic.com/image/thumb/Cof8vC9vaCH-GYX6JltrQA/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/h8oGFN-jdPeHY8j3EM_WnQ/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/EjmCDwq97jEEe9RuKY7aNw/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is3-ssl.mzstatic.com/image/thumb/_ODFuW8DJbcFSHL_yhHuVA/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/L4WNJNV3nbmyAL6MQSeGuw/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell5">
+    <img src="https://is3-ssl.mzstatic.com/image/thumb/hMPxF7vkj44eqAbnFymHDQ/738x416.webp" alt="">
+  </div>
+  
+</div>
+<br>
+<hr>
+
+
+
+
+
+<!-- heading 6 html -->
+
+<h5 id="heading6">All Comedy Series</h5>
+<div class="carouselriyaz6" data-flickity='{ "groupCells": true, "draggable": false, "pageDots": false }'>
+  <div class="carousel-cell6">
+    <img src="https://is3-ssl.mzstatic.com/image/thumb/3iAbZQ4pznOpDRenkvOhNA/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell6">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/rZ34KsuVSjdutVP-0HO95A/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell6">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/I6UAhe-RRHaTB3hCQdQXCQ/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell6">
+    <img src="https://is3-ssl.mzstatic.com/image/thumb/_VWBeTzPLn6LeyUjlTaSiQ/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell6">
+    <img src="https://is2-ssl.mzstatic.com/image/thumb/le6mxqLNaXH47MHIH7stzw/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell6">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/vWs6dt5xDhG_DjIoc-89tA/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell6">
+    <img src="https://is5-ssl.mzstatic.com/image/thumb/y-GzfKyC0y6x5Dd8254GpQ/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell6">
+    <img src="https://is3-ssl.mzstatic.com/image/thumb/eGnsZyr_h0ivXT0r4jbaew/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell6">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/jdSxJnPbX9kKPTfMKUHvww/738x416.webp" alt="">
+  </div>
+  <div class="carousel-cell6">
+    <img src="https://is3-ssl.mzstatic.com/image/thumb/D8bOyY8jg5hymGMxt1LSZg/738x416.webp" alt="">
+  </div>
+</div>
+
+<!-- Aditya
+Aditya
+Aditya
+Aditya
+Aditya -->
+
+<div id="Aditya">
+    <div style="margin-left: 20px; margin-right: 20px">
+      <div style="margin-bottom: 40px">
+        <h4 style="margin-left: 15px">Our Amazing Planet</h4>
+        <p
+          style="
+            margin-top: -15px;
+            margin-left: 15px;
+            color: rgb(133, 131, 131);
+          "
+        >
+          Explore nature documentary films and series.
+        </p>
+
+        <div class="carousel1">
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is2-ssl.mzstatic.com/image/thumb/Features114/v4/98/5f/f4/985ff45d-4afb-a34f-1e88-39011b2ca443/U0YtVFZBLVdXLUZhY3R1YWxfTXVsdGlUaXRsZV9Ccmlja18xLmxzcg.lsr/1478x832fe.webp"
+            />
+          </div>
+
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is2-ssl.mzstatic.com/image/thumb/Features124/v4/84/21/5d/84215d8f-e47b-edaa-e7b0-f94a147ac467/U0YtVFZBLVdXLUZhY3R1YWxfTXVsdGlUaXRsZV9Ccmlja18yLmxzcg.lsr/1478x832fe.webp"
+            />
+          </div>
+
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/7e/f1/dd/7ef1ddeb-62fb-cfb7-a531-d1e63f5d0fdf/U0YtVFZBLVdXLUZhY3R1YWxfTXVsdGlUaXRsZV9Ccmlja18zLmxzcg.lsr/1478x832fe.webp"
+            />
+          </div>
+
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/90/09/0b/90090b35-00a5-3543-b3e6-84609ece1ed1/U0YtVFZBLVdXLUZhY3R1YWxfTXVsdGlUaXRsZV9Ccmlja180LXAzLmxzcg.lsr/1478x832fe.webp"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is4-ssl.mzstatic.com/image/thumb/Features124/v4/9c/78/15/9c78158d-404f-c2df-d309-beea3df71702/U0YtVFZBLVdXLUZhY3R1YWxfTXVsdGlUaXRsZV9FbnRpdGxlZF9Ccmlja181Lmxzcg.lsr/1478x832fe.webp"
+            />
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div style="margin-bottom: 40px">
+        <h4 style="margin-left: 15px">All Nonfiction Series</h4>
+
+        <div class="carousel2">
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is1-ssl.mzstatic.com/image/thumb/a99v9iRDYcIGof0CvxUUoA/738x416.webp"
+            />
+          </div>
+
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is3-ssl.mzstatic.com/image/thumb/izP6zMmzs-m3VCjcOvM-DQ/738x416.webp"
+            />
+          </div>
+
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is5-ssl.mzstatic.com/image/thumb/RFbs1Kj9CJgtWAYKwmOEig/738x416.webp"
+            />
+          </div>
+
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is1-ssl.mzstatic.com/image/thumb/VlRkLTAvxgEml_ZmCcmP1Q/738x416.webp"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is1-ssl.mzstatic.com/image/thumb/xW-YFC38wO80XQewW5Mn7A/738x416.webp"
+            />
+          </div>
+
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is5-ssl.mzstatic.com/image/thumb/uBU112xIP48X2tW5EbpGGQ/738x416.webp"
+            />
+          </div>
+
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is5-ssl.mzstatic.com/image/thumb/KS0pkmrVEdO4uYZA5CpRZA/738x416.webp"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is3-ssl.mzstatic.com/image/thumb/6kPVBOcFxH5eWRVp9Vy9BA/738x416.webp"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is4-ssl.mzstatic.com/image/thumb/qth_eNoJqMWbjMUyn16jpA/738x416.webp"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is1-ssl.mzstatic.com/image/thumb/04JyAIWtM1q-61kfjf6BsQ/738x416.webp"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is2-ssl.mzstatic.com/image/thumb/nMny0tR8aTkNRR3FHWQcAw/738x416.webp"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is3-ssl.mzstatic.com/image/thumb/6MFkEmAhzwoAZfThq0xWHA/738x416.webp"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is2-ssl.mzstatic.com/image/thumb/jER5ceAuuLVFije5LmLVLw/738x416.webp"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is3-ssl.mzstatic.com/image/thumb/sMiAQsUj7wKXMluwwFXobQ/738x416.webp"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is1-ssl.mzstatic.com/image/thumb/1hOcr3gchtyju9nzwvFcAg/738x416.webp"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is5-ssl.mzstatic.com/image/thumb/KL014j7cDAvmHE0IXLfC5Q/738x416.webp"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is5-ssl.mzstatic.com/image/thumb/IpgXC7UdAxwRnIwu9nuZBg/738x416.webp"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img onmouseover="mouseOver()" onmouseout="mouseOut()"
+              src="https://is5-ssl.mzstatic.com/image/thumb/RMn-3IiFm6XMOJZT3tP8fA/738x416.webp"
+            />
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div id="carousel3" style="margin-bottom: 40px"></div>
+
+      <hr />
+
+      <div id="carousel4" style="margin-bottom: 40px"></div>
+
+      <hr />
+
+      <div id="carousel5" style="margin-bottom: 40px"></div>
+
+      <hr />
+    </div>
+  </div>
+
+  <!-- vishesh
+  vishesh
+  vishesh
+  vishesh
+  vishesh -->
+  <div id="ritikdiv">
+    
+    <div id="main-1">
+      <div class="img-1">
+          <img src="https://tv.apple.com/assets/brands/TV_App_Logo-d343000dfd3ca454ca8705a7aa7dcf4f.png
+          " alt="">
+      </div>
+      <div class="p-1">
+          <h1>Watch Apple TV+ here or anywhere.</h1>
+      </div>
+
+      <p class="p141">Find Apple TV+ on the Apple Tv app, avilable on Apple device,smart Tvs, and more</p>
+
+      <div class="a-1">
+          <a href="">See all supported devices ></a>
+      </div>
+
+      <div class="main-2" >
+          <div class="m1" onclick="frist()">
+              <img src="https://tv.apple.com/assets/icons/product_landing_apple_tv_wht-9610e73e2ef117d35da65eed60d2624a.png
+              " alt="">
+              <p>Apple Tv</p>
+          </div>
+
+          <div>
+              <div class="m1" onclick="second()">
+                  <img src="https://tv.apple.com/assets/icons/product_landing_iPhone_wht-0adcded885905e1a22bfc7ae9bf45fa8.png"
+                      alt="">
+                  <p>iPhone</p>
+              </div>
+          </div>
+
+          <div>
+              <div class="m2" id="m3" onclick="third()">
+                  <img src="https://tv.apple.com/assets/icons/product_landing_iPad_wht-ac93596ed7aeb5e1c15ba18bcb7bfd13.png"
+                      alt="">
+                  <p>iPad</p>
+
+              </div>
+          </div>
+
+          <div>
+              <div class="m1" id="m4" onclick="forth()">
+                  <img src="https://tv.apple.com/assets/icons/product_landing_mac_wht-37e6f73080a15fe8a35b85e7ba8f5468.png"
+                      alt="">
+                  <p>Mac</p>
+
+              </div>
+          </div>
+
+          <div>
+              <div class="m1" id="m5" onclick="five()">
+                  <img src="https://tv.apple.com/assets/icons/product_landing_airplay_wht-f348507fa5bdc6b005b126f0654aa663.png"
+                      alt="">
+                  <p>AirPlay</p>
+
+              </div>
+          </div>
+      </div>
+      <h2 class="h12">See it on your big screen</h2>
+      <div class="a-2">
+          <a href="">Set up your device ></a><br>
+          <a href="">Explore compatible device ></a>
+      </div>
+
+
+      <div class="main-13">
+          <div class="m91">
+              <div class="img-12">
+                  <img src="https://tv.apple.com/assets/icons/banner_usb_lrg_wht-67ed29cf6e5f5add9b2814937f976197.png"
+                      alt="">
+              </div>
+              <p class="p121">Streaming Devices</p>
+              <div class="p-3">
+                  <p>Roku</p>
+                  <p>Fire TV</p>
+                  <p>Google TV</p>
+                  <p>Android TV</p>
+              </div>
+          </div>
+
+          <div class="m92">
+              <div class="img-13">
+                  <img src="https://tv.apple.com/assets/icons/banner_tv_lrg_wht-e0ef12292435df4d9416312f322dbe32.png"
+                      alt="">
+              </div>
+              <p class="p122">Smart Tvs</p>
+              <div class="p-3">
+                  <p>Samsung</p>
+                  <p>LG</p>
+                  <p>VIZIL</p>
+                  <p>Sony</p>
+              </div>
+          </div>
+
+          <div class="m91">
+              <div class="img-12">
+                  <img src="https://tv.apple.com/assets/icons/banner_controller_lrg_wht-5eca7993879258c2ff5e8425055643b6.png"
+                      alt="">
+              </div>
+              <p class="p121">Gaming Consoles</p>
+              <div class="p-3">
+                  <p>PlayStation</p>
+                  <p>Xbox</p>
+              </div>
+          </div>
+
+      </div>
+
+
+
+      <p class="p10">Device avilability varies by country or region</p>
+
+  </div>
+  <div class="main-5">
+
+      <div class="main-12">
+          <div class="p30">
+              <p>Copyright @ 2022 Apple Inc. All right reserved</p>
+
+              <div class="p31">
+                  <p>Internet Service Terms</p>
+
+                  <div></div>
+                  <p>Apple TV & Privacy</p>
+
+                  <div></div>
+                  <p>Cookie Warning</p>
+                  <div></div>
+
+                  <p>Support</p>
+                  <div></div>
+              </div>
+          </div>
+          <div class="p01">
+              <p>United States</p>
+          </div>
+
+
+      </div>
+   
+
+  </div>
+
+</body>
+</html>
+<script>
+
+    function mynavbar(){
+        window.location.href = "loginpage.html";
+    }
+// aman
+// aman
+// aman
+// aman
+
+var storData=[
+    {imageUrl:"https://is2-ssl.mzstatic.com/image/thumb/8593WFOGVTTA1ncIGrL37g/1478x832.webp",
+      name:"Drama",
+      name2:"The Tragedy of macbeth",
+      name3:"A tell of murder,madness,ambition and worthful cunning",
+},
+{imageUrl:"https://is3-ssl.mzstatic.com/image/thumb/FPk1ym0HabNrpWLpYYBF5g/1478x832.webp",
+      name:"Animation",
+      name2:"EI Deafo",
+      name3:"After losing hearing Cece learns that differences can make your super",
+},
+{imageUrl:"https://is3-ssl.mzstatic.com/image/thumb/k-4X4dDwJrtXlsgr1VI_0w/1478x832.webp",
+      name:"Drama",
+      name2:"Swan Song",
+      name3:"Mahershala Ali grapples with altering his family's fate in a tale of love, loss and sacrifies",
+},
+{imageUrl:"https://is2-ssl.mzstatic.com/image/thumb/RdODNXnO5_zaltg5tp8nig/1478x832.webp",
+      name:"HOLIDAY",
+      name2:"Snoppy Presents:For Auld Lang Syne",
+      name3:"Luci plans a New Year Evey Party, as Charlie Brown tries to fulfill just one resolution",
+},
+{imageUrl:"https://is3-ssl.mzstatic.com/image/thumb/izP6zMmzs-m3VCjcOvM-DQ/1478x832.webp",
+      name:"DOCUMENTRY",
+      name2:"The Line",
+      name3:"Dive into the biggest war crimes trial in the generation in this four parts docuseries",
+},
+{imageUrl:"https://is2-ssl.mzstatic.com/image/thumb/FQV5QO8Xa5gbRlB8jXX9rw/1478x832.webp",
+      name:"ANIMATION",
+      name2:"Harriet The Spy",
+      name3:"Discover The animated adaptation of the beloved children's book",
+},
+{imageUrl:"https://is2-ssl.mzstatic.com/image/thumb/SEsiWD2cTDShiJqUtRPAxg/1478x832.webp",
+      name:"Drama",
+      name2:"The Shrink Next Door",
+      name3:"A therpiest (Paul Rudd) takes over the life of his client(will ferell) in this incridibel tale",
+},
+{imageUrl:"https://is5-ssl.mzstatic.com/image/thumb/y7Tj8Ig4DTzSgbm4DcoFyw/1478x832.webp",
+      name:"KIDS AND FAMILY",
+      name2:"Snoppy in the Space: The Search For The Life",
+      name3:"Join Snoppy and The Peanuts Gang as they partner with NASA on epic adventure",
+},
+{imageUrl:"https://is3-ssl.mzstatic.com/image/thumb/xwiVfxV1l5Tfy6-1uQ25_Q/1478x832.webp",
+      name:"ADVENTURE",
+      name2:"Finch",
+      name3:"Take an Unforgettable journey in Tom Hanks' New thrill ride",
+},
+];
+storData.map(function(trem){
+    var div=document.createElement("div");
+    div.setAttribute("id","aman6");
+   
+
+    var div1=document.createElement("div");
+    var div2=document.createElement("div");
+    div2.setAttribute("id","aman7");
+  
+  
+    
+
+    var imageUrl=document.createElement("img");
+    imageUrl.setAttribute("src",trem.imageUrl);
+    imageUrl.setAttribute("id","aimage21")
+
+    var h2 = document.createElement("p");
+    h2.textContent=trem.name;
+    h2.setAttribute("id","ah4");
+
+    var h3 = document.createElement("h2");
+    h3.textContent=trem.name2;
+    h3.setAttribute("id","ah3");
+
+     var h4 = document.createElement("p");
+    h4.textContent=trem.name3;
+    h4.setAttribute("id","ah4");
+
+     div2.append(h2,h3,h4);
+    div1.append(imageUrl);
+    div.append(div1,div2);
+    document.querySelector(".aman").append(div);
+});
+var abot = document.getElementById("abot").addEventListener("click",mybutton)
+  function mybutton(){
+    window.location.href = "loginpage.html";
+  }
+
+ var picData=[
+     {
+         imgUrl:"https://is2-ssl.mzstatic.com/image/thumb/qYEYYvFXN2O4zEuCcBSbjw/738x416.webp",
+     },{
+         imgUrl:"https://is3-ssl.mzstatic.com/image/thumb/_VWBeTzPLn6LeyUjlTaSiQ/738x416.webp",
+     },{
+         imgUrl:"https://is5-ssl.mzstatic.com/image/thumb/X19Y90BV3y8hsFvF0l7Qmg/738x416.webp",
+     },{
+         imgUrl:"https://is4-ssl.mzstatic.com/image/thumb/L4WNJNV3nbmyAL6MQSeGuw/738x416.webp",
+     },{
+         imgUrl:"https://is4-ssl.mzstatic.com/image/thumb/Iz8wdsRXYRysnRRCY0yMrA/738x416.webp",
+     },{
+         imgUrl:"https://is5-ssl.mzstatic.com/image/thumb/HSPjQEW5mDqwAbMbbhfNOQ/738x416.webp",
+     },{
+         imgUrl:"https://is4-ssl.mzstatic.com/image/thumb/AmQ1cNEzc1DMKH25B5J9aQ/738x416.webp",
+     },{
+         imgUrl:"https://is2-ssl.mzstatic.com/image/thumb/vB48H4eBprLJ-WdCBTA6cw/738x416.webp",
+     },{
+         imgUrl:"https://is4-ssl.mzstatic.com/image/thumb/vWs6dt5xDhG_DjIoc-89tA/738x416.webp",
+     },{
+         imgUrl:"https://is4-ssl.mzstatic.com/image/thumb/UPoQbHoPte_TFJXEvKIIsw/738x416.webp",
+     },{
+         imgUrl:"https://is3-ssl.mzstatic.com/image/thumb/3iAbZQ4pznOpDRenkvOhNA/738x416.webp",
+     },{
+         imgUrl:"https://is2-ssl.mzstatic.com/image/thumb/SEsiWD2cTDShiJqUtRPAxg/738x416.webp",
+     },{
+         imgUrl:"https://is1-ssl.mzstatic.com/image/thumb/VXktJkcnADdcq8RjZVT_nw/738x416.webp",
+     },{
+         imgUrl:"https://is5-ssl.mzstatic.com/image/thumb/NHLksWLSZpTcIw36-n7vWA/738x416.webp",
+     },{
+         imgUrl:"https://is1-ssl.mzstatic.com/image/thumb/yXhlXOFkS9yJ1kMmOhfIbg/738x416.webp",
+     },
+ ];
+  
+ picData.map(function(reap){
+    var div=document.createElement("div");
+
+     var imgUrl=document.createElement("img");
+     imgUrl.setAttribute("src",reap.imgUrl);
+     imgUrl.setAttribute("id","aimg2")
+ 
+     div.append(imgUrl);
+     document.querySelector("#aman1").append(div);
+
+ });
+
+ var diveData =[
+    { 
+        name:"Apple Originals Films",
+      name1: "Date night, Party of one, Or watch feast, Here,s all you need for an evening of the movies.",
+      
+    },
+] ;
+  var divvData= [
+     {
+        img_url:"https://is1-ssl.mzstatic.com/image/thumb/oNk2OJAqURutdmT8ckQdYg/1679x945sr.webp",
+        name2:"The Tragedy of macbeth",
+    },
+    {
+        img_url:"https://is4-ssl.mzstatic.com/image/thumb/9UvIA9XAJPAVVNQ7MjJoDg/1679x945sr.webp",
+        name2:"Swan Song",
+    },
+    {
+        img_url:"https://is1-ssl.mzstatic.com/image/thumb/NuPsZ_5oG0ChKLKkWolc5Q/1679x945sr.webp",
+        name2:"CODA",
+    },
+    {
+        img_url:"https://is1-ssl.mzstatic.com/image/thumb/A7XGHTxJ5B_pYBnIBbTKqA/1679x945sr.webp",
+        name2:"Finch",
+    },{
+        img_url:"https://is3-ssl.mzstatic.com/image/thumb/72DGGj62pqAVoyRMOS3jVw/1679x945sr.webp",
+        name2:"Greyhound", 
+    },{
+        img_url:"https://is3-ssl.mzstatic.com/image/thumb/zyytQT9OBfHExaem6yaxPA/999x562sr.webp",
+        name2:"Billi-Eilish",
+    },{
+        img_url:"https://is5-ssl.mzstatic.com/image/thumb/vyFYGSAsGFhyM68EOq99nA/1679x945sr.webp",
+        name2:"Harriet The Spy",
+    },{
+        img_url:"https://is4-ssl.mzstatic.com/image/thumb/HP3jCdFNg63pccvHyqymmQ/1679x945sr.webp",
+        name2:"Helpsters",
+    },{
+        img_url:"https://is4-ssl.mzstatic.com/image/thumb/fwhZIZB2ms4E7ZgO3GHocw/1679x945sr.webp",
+        name2:"Here We Are Notes",
+    },{
+        img_url:"https://is1-ssl.mzstatic.com/image/thumb/hA3Pc8N6JErWtL19EzW2zw/1679x945sr.webp",
+        name2:"Ghost-writter",
+    },{
+        img_url:"https://is4-ssl.mzstatic.com/image/thumb/xaPt2hU6OzMkntlgjkn-cA/1679x945sr.webp",
+        name2:"DOUG UNPLUG",
+    },{
+        img_url:"https://is3-ssl.mzstatic.com/image/thumb/4mlDl2s5JkS6QWuwTCwjyw/1679x945sr.webp",
+        name2:"Get Roling with otis", 
+    }
+];
+
+diveData.map(function(treap){
+    var div=document.createElement("div");
+
+    var h2=document.createElement("h2")
+       h2.textContent=treap.name;
+       h2.setAttribute("id","apret");
+
+    var p=document.createElement("p");
+    p.textContent=treap.name1;
+    p.setAttribute("id","apret1");
+
+    div.append(h2,p);
+   document.querySelector("#aman4").append(div);
+});
+ divvData.map(function(trap){
+    var div1=document.createElement("div");
+    div1.setAttribute("id","arat1");
+
+    var img_url=document.createElement("img");
+    img_url.setAttribute("src",trap.img_url);
+    img_url.setAttribute("id","arat");
+
+    var name2=document.createElement("p");
+    name2.textContent=trap.name2;
+    name2.setAttribute("id","arat2")
+
+    div1.append(img_url,name2)
+    document.querySelector("#aman5").append(div1);
+});
+var flkty  = new  Flickity(".aman", {
+      pageDots:false,
+      groupCells:true,
+      groupCells:3,
+      initialIndex:0,
+    });
+
+    var flkty1 = new Flickity("#aman1", {
+        pageDots:false,
+        groupCells:true,
+        groupCells:5,
+      initialIndex:0,
+    });
+
+    var flkty3 = new Flickity("#aman2", {
+        pageDots:false,
+        groupCells:true,
+        groupCells:4,
+      initialIndex:0,
+    });
+
+    var flkty4 = new Flickity("#aman5", {
+        pageDots:false,
+        groupCells:true,
+        groupCells:6,
+      initialIndex:0,
+    });
+
+   
+    // flkty.on("staticClick", function (event, pointer, cellElement, cellIndex) {
+    //   // if (cellElement) {
+    //   //   flkty.remove(cellElement);
+    //   // }
+    // });
+    // aditya
+    // adityaa
+    // aditya
+    // aditya
+    // aditya
+    // aditya
+    
+    function Aditya() {
+      var image_arr3 = [
+        {
+          image:
+            "https://is4-ssl.mzstatic.com/image/thumb/Features115/v4/eb/b5/5f/ebb55f3d-4072-af25-a80e-d5ee90bbb8ac/IFNGLVRWQS1VU0EtVFYrS2lkc18xLXR2T1MubHNy.lsr/1478x832fe.webp",
+        
+            // code:alert("This is alert on click"),
+          },
+        {
+          image:
+            "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/ed/91/10/ed911095-4de2-cfc7-a59c-db93e2b0e9da/IFNGLVRWQS1VU0EtVFYrS2lkc18yLXR2T1MubHNy.lsr/1478x832fe.webp",
+            code:"function2",
+          },
+        {
+          image:
+            "https://is5-ssl.mzstatic.com/image/thumb/Features115/v4/c5/70/f2/c570f2fb-5fca-6729-5e4f-01cb8bc564e7/IFNGLVRWQS1VU0EtVFYrS2lkc18zLXR2T1MubHNy.lsr/1478x832fe.webp",
+            code:"function3",
+          },
+
+        {
+          image:
+            "https://is5-ssl.mzstatic.com/image/thumb/Features115/v4/7b/64/72/7b647279-c42f-2f6b-fd43-7f2961ef1547/IFNGLVRWQS1VU0EtVFYrS2lkc180LXR2T1MubHNy.lsr/1478x832fe.webp",
+            code:"function4",
+          },
+        {
+          image:
+            "https://is2-ssl.mzstatic.com/image/thumb/Features115/v4/21/07/4c/21074cbd-fe8f-048a-1355-8aeb29078260/IFNGLVRWQS1VU0EtVFYrS2lkc181LXR2T1MubHNy.lsr/1478x832fe.webp",
+        
+            code:"function5",
+          },
+      ];
+
+      var heading = document.createElement("h4");
+      heading.textContent = "Kids and Family";
+      heading.style.marginLeft = "15px";
+
+      var para = document.createElement("p");
+      para.textContent =
+        "Discover shows and movies filled with wonder and imagination.";
+      para.style.marginTop = "-15px";
+      para.style.marginLeft = "15px";
+      para.style.color = "rgb(133, 131, 131)";
+
+      var div1 = document.createElement("div");
+      div1.setAttribute("class", "carousel3");
+
+      var image_map = image_arr3.map(function (element,index) {
+        var div1_1 = document.createElement("div");
+        div1_1.addEventListener("click",fun);
+       
+        div1_1.setAttribute("class", "carousel-cell");
+
+        var image = document.createElement("img");
+        image.setAttribute("src", element.image);
+
+        image.addEventListener("mouseover", mouseOver);
+        image.addEventListener("mouseout", mouseOut);
+       
+       
+        div1_1.append(image);
+
+        div1.append(div1_1);
+
+       
+
+        
+      function fun(){
+
+        if(index ==0){
+          alert("index 0");
+        }
+        else if(index ==1){
+          alert("index 1");
+        }
+        else if(index ==2){
+          alert("index 2");
+        }
+        else if(index ==3){
+          alert("index 3");
+        }
+        else if(index ==4){
+          alert("index 4");
+        }
+     
+      }
+      });
+
+      document.querySelector("#carousel3").append(heading, para, div1);
+
+      function mouseOver(){
+      
+      this.style.filter= "blur(1.5px)";
+
+  
+
+     
+    };
+
+    function mouseOut(){
+
+      this.style.filter= "blur(0px)";
+
+  
+
+    };
+
+      var image_arr4 = [
+        {
+          image:
+            "https://is3-ssl.mzstatic.com/image/thumb/FPk1ym0HabNrpWLpYYBF5g/738x416.webp",
+        },
+        {
+          image:
+            "https://is2-ssl.mzstatic.com/image/thumb/FQV5QO8Xa5gbRlB8jXX9rw/738x416.webp",
+        },
+        {
+          image:
+            "https://is5-ssl.mzstatic.com/image/thumb/y7Tj8Ig4DTzSgbm4DcoFyw/738x416.webp",
+        },
+        {
+          image:
+            "https://is5-ssl.mzstatic.com/image/thumb/PsLk5RQuPoAqWJ-lVe1gLQ/738x416.webp",
+        },
+
+        {
+          image:
+            "https://is3-ssl.mzstatic.com/image/thumb/6f5y-DYx9UvvcJ-gpqAufw/738x416.webp",
+        },
+        {
+          image:
+            "https://is3-ssl.mzstatic.com/image/thumb/3J1XDMDhXrh-VCuraBUQJg/738x416.webp",
+        },
+
+        {
+          image:
+            "https://is2-ssl.mzstatic.com/image/thumb/2lfdtvo9bvduvVLrbcASow/738x416.webp",
+        },
+        {
+          image:
+            "https://is3-ssl.mzstatic.com/image/thumb/cuTV_0CMBiqg34YfIP2s0Q/738x416.webp",
+        },
+        {
+          image:
+            "https://is2-ssl.mzstatic.com/image/thumb/FEcg1yXIW7vfftSbhFKsQg/738x416.webp",
+        },
+        {
+          image:
+            "https://is2-ssl.mzstatic.com/image/thumb/tvBkfH_Ojxnmaod8KMGs_g/738x416.webp",
+        },
+        {
+          image:
+            "https://is4-ssl.mzstatic.com/image/thumb/RP47edx-hRW2rCun48Lx2w/738x416.webp",
+        },
+        {
+          image:
+            "https://is1-ssl.mzstatic.com/image/thumb/AS1GpWWwwGwHxrXD7Sny5A/738x416.webp",
+        },
+        {
+          image:
+            "https://is1-ssl.mzstatic.com/image/thumb/f2vtGOjht_s3h3tBMlDHSg/738x416.webp",
+        },
+        {
+          image:
+            "https://is2-ssl.mzstatic.com/image/thumb/BU-tGneZEJEFJ_BFNu-UGA/738x416.webp",
+        },
+        {
+          image:
+            "https://is4-ssl.mzstatic.com/image/thumb/_la1XaWrle1sDMnXFf_D1Q/738x416.webp",
+        },
+        {
+          image:
+            "https://is4-ssl.mzstatic.com/image/thumb/3RaVxdFY2twAFSDtW_2yIA/738x416.webp",
+        },
+        {
+          image:
+            "https://is4-ssl.mzstatic.com/image/thumb/uQghZ3zlpIIlVIbsGMcftA/738x416.webp",
+        },
+        {
+          image:
+            "https://is2-ssl.mzstatic.com/image/thumb/RdODNXnO5_zaltg5tp8nig/738x416.webp",
+        },
+        {
+          image:
+            "https://is1-ssl.mzstatic.com/image/thumb/Sy6yivO7EftulDxSpyo__Q/738x416.webp",
+        },
+        {
+          image:
+            "https://is3-ssl.mzstatic.com/image/thumb/ZYv1Yo9zcK029EjWlyRSYg/738x416.webp",
+        },
+        {
+          image:
+            "https://is2-ssl.mzstatic.com/image/thumb/IZLh7W9XMi2iYTPqqFwRYg/738x416.webp",
+        },
+        {
+          image:
+            "https://is3-ssl.mzstatic.com/image/thumb/n2S3A7xaoY_tP8wngoLBTw/738x416.webp",
+        },
+        {
+          image:
+            "https://is5-ssl.mzstatic.com/image/thumb/htJoSCg_9CML6hANmTrQlg/738x416.webp",
+        },
+
+        {
+          image:
+            "https://is2-ssl.mzstatic.com/image/thumb/7QggTvk_fHz-FE9Pru2GxA/738x416.webp",
+        },
+
+        {
+          image:
+            "https://is3-ssl.mzstatic.com/image/thumb/vElmOL1u_pwE-YiCQsXncg/738x416.webp",
+        },
+
+        {
+          image:
+            "https://is2-ssl.mzstatic.com/image/thumb/Mv8zQCROSnN0fW_jMixewA/738x416.webp",
+        },
+
+        {
+          image:
+            "https://is4-ssl.mzstatic.com/image/thumb/v6GmzIllgUll8qcuTDHwnA/738x416.webp",
+        },
+      ];
+
+
+      var heading = document.createElement("h4");
+      heading.textContent = "Family Fun";
+      heading.style.marginLeft = "15px";
+
+      var div1 = document.createElement("div");
+      div1.setAttribute("class", "carousel4");
+
+      var image_map = image_arr4.map(function (element,index) {
+        var div1_1 = document.createElement("div");
+        div1_1.addEventListener("click", fun);
+        div1_1.setAttribute("class", "carousel-cell");
+        div1_1.style.width = "250px";
+
+
+        var image = document.createElement("img");
+        image.setAttribute("src", element.image);
+
+        image.addEventListener("mouseover", mouseOver);
+        image.addEventListener("mouseout", mouseOut);
+       
+
+        div1_1.append(image);
+
+        div1.append(div1_1);
+
+        function fun(){
+        if(index ==0){
+          alert("index 0");
+        }
+        else if(index ==1){
+          alert("index 1");
+        }
+        else if(index ==2){
+          alert("index 2");
+        }
+        else if(index ==3){
+          alert("index 3");
+        }
+        else if(index ==4){
+          alert("index 4");
+        }
+        else if(index ==5){
+          alert("index 5");
+        }
+        else if(index ==6){
+          alert("index 6");
+        }
+        else if(index ==7){
+          alert("index 7");
+        }
+     
+      }
+
+      });
+
+      document.querySelector("#carousel4").append(heading, div1);
+
+      var image_arr5 = [
+        {
+          image:
+            "https://is2-ssl.mzstatic.com/image/thumb/Features126/v4/83/45/c6/8345c672-34b4-6993-28a9-88fbd0f68967/U0YtVFZBLVdXLU1haGVyc2hhbGFfQWxpLUluc3BpcmF0aW9ucy5sc3I.lsr/1478x832fe.webp",
+        },
+        {
+          image:
+            "https://is5-ssl.mzstatic.com/image/thumb/Features126/v4/57/52/b4/5752b4e6-1e12-92a7-d288-84cc9caa87ff/U0YtVFZBLVdXLUphY2tfTWNCcmF5ZXItSW5zcGlyYXRpb25zLmxzcg.lsr/1478x832fe.webp",
+        },
+        {
+          image:
+            "https://is3-ssl.mzstatic.com/image/thumb/Features126/v4/4f/f2/32/4ff2323e-f4e7-e64e-3caf-a4093dcd30b3/VTBZdFZGWkJMVmRYTFV0cGJWOUtaV1ZmVjI5dmJsOWhibVJmVEdWbFgxTjFibDlMZVhWdUxVbHVjM0JwY21GMGFXOXVjeTVzYzNJLmxzcg.lsr/1478x832fe.webp",
+        },
+        {
+          image:
+            "https://is2-ssl.mzstatic.com/image/thumb/Features125/v4/35/aa/f8/35aaf8a9-eec1-b1d1-cc0b-cb79b17b6feb/U0YtVFZBLVdXLVRvZGRfSGF5bmVzLUluc3BpcmF0aW9ucy5sc3I.lsr/1478x832fe.webp",
+        },
+        {
+          image:
+            "https://is3-ssl.mzstatic.com/image/thumb/Features125/v4/43/0d/a1/430da130-5ea8-fa53-4e2b-3e5a68e9baab/U0YtVFZBLVVTQS1TaWFuX0hlZGVyX2FuZF9NYXJsZWVfTWF0bGluLUluc3BpcmF0aW9ucy5sc3I.lsr/1478x832fe.webp",
+        },
+        {
+          image:
+            "https://is4-ssl.mzstatic.com/image/thumb/Features124/v4/e5/05/8a/e5058ac2-c794-2727-7623-315978c5134b/U0YtVFZBLVVTQS1SdXNzb19Ccm90aGVyc19JbnNwaXJhdGlvbnMtMi5sc3I.lsr/1478x832fe.webp",
+        },
+        {
+          image:
+            "https://is3-ssl.mzstatic.com/image/thumb/Features124/v4/f4/bd/c8/f4bdc81c-55d5-9c24-b299-d336b37970be/U0YtVFZBLVdXLVRvbW1fTW9vcmVfSW5zcGlyYXRpb25zLmxzcg.lsr/1478x832fe.webp",
+        },
+        {
+          image:
+            "https://is3-ssl.mzstatic.com/image/thumb/Features114/v4/5d/0e/4b/5d0e4b79-5e13-4fd3-4cc5-89a42a48da6e/U0YtVFZBLVdXLVNvZmlhX0NvcHBvbGEtSW5zcGlyYXRpb25zLmxzcg.lsr/1478x832fe.webp",
+        },
+        {
+          image:
+            "https://is1-ssl.mzstatic.com/image/thumb/Features113/v4/79/f2/5e/79f25e92-537a-641f-2a05-474af10a4d63/U0YtVFZBLVdXLUJyeWNlX0RhbGxhc19Ib3dhcmRfYW5kX1Jvbl9Ib3dhcmQtSW5zcGlyYXRpb25zLmxzcg.lsr/1478x832fe.webp",
+        },
+        {
+          image:
+            "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/67/28/d2/6728d213-84f5-21a9-dbaa-26f1e8947bc2/U0YtVFZBLVdXLVZpc2libGVfT3V0X09uX1RlbGV2aXNpb24tQ2FudmFzLU5vX1N1YnRpdGxlLmxzcg.lsr/1478x832fe.webp",
+        },
+      ];
+
+      var heading = document.createElement("h4");
+      heading.textContent = "Inspirations";
+      heading.style.marginLeft = "15px";
+
+      var para = document.createElement("p");
+      para.textContent = "The stories behind the story.";
+      para.style.marginTop = "-15px";
+      para.style.marginLeft = "15px";
+      para.style.color = "rgb(133, 131, 131)";
+
+      var div1 = document.createElement("div");
+      div1.setAttribute("class", "carousel5");
+
+      var image_map = image_arr5.map(function (element,index) {
+        var div1_1 = document.createElement("div");
+        div1_1.setAttribute("class", "carousel-cell");
+        div1_1.addEventListener("click",fun);
+       
+
+        var image = document.createElement("img");
+        image.setAttribute("src", element.image);
+
+        image.addEventListener("mouseover", mouseOver);
+        image.addEventListener("mouseout", mouseOut);
+       
+
+        div1_1.append(image);
+
+        div1.append(div1_1);
+
+        function fun(){
+        if(index ==0){
+          alert("index 0");
+        }
+        else if(index ==1){
+          alert("index 1");
+        }
+        else if(index ==2){
+          alert("index 2");
+        }
+        else if(index ==3){
+          alert("index 3");
+        }
+        else if(index ==4){
+          alert("index 4");
+        }
+        else if(index ==5){
+          alert("index 5");
+        }
+        else if(index ==6){
+          alert("index 6");
+        }
+        else if(index ==7){
+          alert("index 7");
+        }
+     
+      }
+
+
+      });
+
+      document.querySelector("#carousel5").append(heading, para, div1);
+
+      var flkty = new Flickity(".carousel1", {
+        initialIndex: 2,
+        // groupCells: true,
+        pageDots: false,
+      });
+
+      var flkty1 = new Flickity(".carousel2", {
+        initialIndex: 0,
+        groupCells: true,
+        pageDots: false,
+      });
+
+      var flkty3 = new Flickity(".carousel3", {
+        initialIndex: 2,
+        // groupCells: true,
+        pageDots: false,
+      });
+
+      var flkty4 = new Flickity(".carousel4", {
+        initialIndex: 0,
+        groupCells: true,
+        pageDots: false,
+      });
+
+      var flkty5 = new Flickity(".carousel5", {
+        initialIndex: 2,
+        // groupCells: true,
+        pageDots: false,
+      });
+    }
+
+    Aditya();
+
+    // vishesh
+    // vishesh
+    // vishesh
+    // vishesh
+    // vishesh
+    
+ 
+ function frist(){
+    window.location.href = "itv.html";
+ }
+ function second(){
+    window.location.href = "iphone.html";
+ }
+ function third(){
+    window.location.href = "ipad.html";
+ }
+ function forth(){
+    window.location.href = "mac.html";
+ }
+ function five(){
+    window.location.href = "airplay.html";
+ }
+ </script>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css" />
+    
+    <script src="https://kit.fontawesome.com/ca7dce9b53.js" crossorigin="anonymous"></script>
+    <title>Create apple ID</title>
+</head>
+<body>
+ 
+    <div class="contaniersignup">
+    <i class="fab fa-apple" id="itag"></i>
+    <h1>Create Apple ID</h1>
+    <form id="form" >
+        <input type="text" placeholder="First Name"  id="firstname" required><br>
+        <input type="text" placeholder="Last Name" id="lastname" required><br>
+        <input type="tel" placeholder="Birthday"  id="birthday" required ><br>
+        <div class="emaildiv">
+        <input type="email"  placeholder="name@example.com" id="email" required>
+        <p id="ptag">Your email will be your Apple ID.</p>
+        </div>
+        <input type="password" placeholder="password" id="password" required>
+        <div class="checkbox">
+        <input type="checkbox" name="checkboxtext" id="checkbox" checked>
+        <label for="checkboxtext"> Agree to Terms & Conditions</label><br>
+        <br>
+        <label for="Country/Region" id="Countrytext">Country/Region:</label >
+            <select name="Country/Region" id="select" >
+                <option value="india">India</option>
+                <option value="United states">india</option>
+                <option value="Austalia">india</option>
+                <option value="	France">France</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Russia">Russia</option>
+                <option value="Brazil">Brazil</option>
+                <option value="China">China</option>
+                <option value="Canada">Canada</option>
+            </select>
+        </div>
+        <hr>
+        <p>By continuing, you acknowledge that you agree to the Apple Media Services Terms & Conditions.</p>
+
+        <button type="submit" id="resubmit" >Continue
+            </button>
+           
+        
+
+    </form>
+</div>
+<script src="/signup.js"></script>
+</body>
+</html>
