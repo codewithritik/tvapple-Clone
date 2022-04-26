@@ -49,21 +49,20 @@ I designed the header of the Website.
 ## Screenshots
 
 ### Landing Page
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636824685030/O_72HGuHx.jpeg?auto=compress,format&format=webp" />
+<img src="https://raw.githubusercontent.com/codewithritik/tvapple-Clone/main/Screenshots/Screenshot%20(58).png" />
+<img src="https://raw.githubusercontent.com/codewithritik/tvapple-Clone/main/Screenshots/Screenshot%20(59).png" />
 
 ### Signup and Login
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636823479455/SgtgUNKHQ.png?auto=compress,format&format=webp"/>
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636823994169/1K0S-tZ87.png?auto=compress,format&format=webp"/>
+<img src="https://raw.githubusercontent.com/codewithritik/tvapple-Clone/main/Screenshots/Screenshot%20(61).png"/>
+<img src="https://raw.githubusercontent.com/codewithritik/tvapple-Clone/main/Screenshots/Screenshot%20(62).png"/>
 
-### Train, Bus and Hotel booking
+### OTP Page
 
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636823108161/WwFqM5pFL.png?auto=compress,format&format=webp"/>
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636823767110/GzggDojMz.png?auto=compress,format&format=webp"/>
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636823834946/y4pvO6PAQ-.png?auto=compress,format&format=webp"/>
+<img src="https://raw.githubusercontent.com/codewithritik/tvapple-Clone/main/Screenshots/Screenshot%20(63).png"/>
 
-### Payment
+### Footer
 
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636824043068/wul8eXeZr.png?auto=compress,format&format=webp"/>
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636824052299/kt9csAlDn.png?auto=compress,format&format=webp"/>
+<img src="https://raw.githubusercontent.com/codewithritik/tvapple-Clone/main/Screenshots/Screenshot%20(60).png"/>
+
 
 
