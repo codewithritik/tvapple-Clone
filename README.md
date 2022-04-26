@@ -1,4 +1,6 @@
-# Clone of the website Apple TV+
+# Clone Apple TV+: - [Go live](https://apple-tvclone.netlify.app/)
+
+# Clone Apple TV+
 
 Apple tv is a online Movie website you can Browse all movies, TV shows, and more from Apple TV+. Watch all Apple Originals here and on the Apple TV app across your devices.
 ## Authors
@@ -14,18 +16,27 @@ Apple tv is a online Movie website you can Browse all movies, TV shows, and more
 # Tech Stack
 
 ### In this project we have used the following Tech.
-
+​
 **Client:** HTML, CSS and Javascript
-
+​
 **Server:** Local Storage
+
+
+## Features
+​
+-  There is Landing page where users can select their city where user can begin thier journey. 
+​
+-  First you need to sign up.
+​
+-  Then you need to Login.
+​
+-  If you provide correct credentials you will be redirected to Landing Page Else you will be redirected to same Login Page. 
 
 
 ## Demo
 Click the given link to visit the website
 
 <a href="https://apple-tvclone.netlify.app/" title="Clone of the website Apple TV+" target="_blank">Apple TV+ Clone Demo Link</a>
-
-<!-- https://masai-course.s3.ap-south-1.amazonaws.com/users/1881/submissions/227384/403177/c023e98d6afcdd9d4222e7ce62faef90/Abhibus-clone.mp4 -->
 
 
 ## Areas of Responsibility
