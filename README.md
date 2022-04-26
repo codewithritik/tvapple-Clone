@@ -15,15 +15,15 @@ Apple tv is a online Movie website you can Browse all movies, TV shows, and more
 
 ### In this project we have used the following Tech.
 
-**Client:** CSS and HTML
+**Client:** HTML, CSS and Javascript
 
-**Server:** Javascript and Local Storage
+**Server:** Local Storage
 
 
 ## Demo
 Click the given link to visit the website
 
-<a href="https://apple-tvclone.netlify.app/" title="Clone of the website Apple TV+">A# Apple TV+ Clone Demo Link</a>
+<a href="https://apple-tvclone.netlify.app/" title="Clone of the website Apple TV+" target="_blank">Apple TV+ Clone Demo Link</a>
 
 <!-- https://masai-course.s3.ap-south-1.amazonaws.com/users/1881/submissions/227384/403177/c023e98d6afcdd9d4222e7ce62faef90/Abhibus-clone.mp4 -->
 ## Features
