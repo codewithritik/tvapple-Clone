@@ -17,14 +17,14 @@ Apple tv is a online Movie website you can Browse all movies, TV shows, and more
 
 ### In this project we have used the following Tech.
 ​
-**Client:** HTML, CSS and Javascript
+-**Client:** HTML, CSS and Javascript
 ​
-**Server:** Local Storage
+-**Server:** Local Storage
 
 
 ## Features
 ​
--  There is Landing page where users can select their city where user can begin thier journey. 
+-  There is Landing page with a slider.
 ​
 -  First you need to sign up.
 ​
