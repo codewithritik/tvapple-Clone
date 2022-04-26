@@ -26,18 +26,13 @@ Click the given link to visit the website
 <a href="https://apple-tvclone.netlify.app/" title="Clone of the website Apple TV+" target="_blank">Apple TV+ Clone Demo Link</a>
 
 <!-- https://masai-course.s3.ap-south-1.amazonaws.com/users/1881/submissions/227384/403177/c023e98d6afcdd9d4222e7ce62faef90/Abhibus-clone.mp4 -->
-## Features
 
-- User can authenticate themselves using Login/signup button.Either user can use OTP verification or google authentication.
-- User can search for the relevant trip they want by train, bus or rental and can book the ticket.
-- User can also search for the Hotel and can book the hotel online.
 
-## Tech Stack
+## Areas of Responsibility
 
-**Client:** React, Bootstrap, HTML and CSS ,Javascript, MongoDb, Github
-
-**Server:** Node, Express
-
+I build a Sign-up and Sign-in Page.
+I Created OTP Page.
+I designed the header of the Website.
 
 
 ## Screenshots
