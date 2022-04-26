@@ -1,28 +1,29 @@
-# abhibus-clone
+# Clone of the website Apple TV+
 
-
-![Logo](https://static.abhibus.com/img/abhilogos/logo1.png)
-
-
-# Clone of the website abhibus.com
-
-abhibus.com is online ticketing company that facilitates online booking of bus and train tickets to travellers all over India.It also provide the hotel booking for the users. With ticket inventory from over 1500 operators and 15000 routes.
+Apple tv is a online Movie website you can Browse all movies, TV shows, and more from Apple TV+. Watch all Apple Originals here and on the Apple TV app across your devices.
 ## Authors
 
-- [@Dadakalandar](https://github.com/kerrybli)
-- [@Sumitkumar](https://github.com/sumitsingh-ara)
-- [@priyagupta](https://github.com/Priya31g)
-- [@prashantkumar](https://github.com/prashantkrmathur/)
-- [@premkumarchanda](https://github.com/chandaprem999)
-## Acknowledgements
 
- - To start the landing page run command -npm start in the landing page of the server.
- - To fetch the data from the backend you also need to run the npm start server in node-js
+@Ritik Gupta
+@Riyaz Ahmad
+@Vishesh Kushwaha
+@Aman Katiyar
+@Aditya Verma
+
+
+# Tech Stack
+
+### In this project we have used the following Tech.
+
+**Client:** CSS and HTML
+
+**Server:** Javascript and Local Storage
+
 
 ## Demo
 Click the given link to visit the website
 
-<a href="https://abhi-bus-clone.vercel.app/" title="Abhi bus clone">Abhi Bus Clone Demo Link</a>
+<a href="https://apple-tvclone.netlify.app/" title="Clone of the website Apple TV+">A# Apple TV+ Clone Demo Link</a>
 
 <!-- https://masai-course.s3.ap-south-1.amazonaws.com/users/1881/submissions/227384/403177/c023e98d6afcdd9d4222e7ce62faef90/Abhibus-clone.mp4 -->
 ## Features
