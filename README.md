@@ -7,9 +7,9 @@ Apple tv is a online Movie website you can Browse all movies, TV shows, and more
 
 
 [@Ritik Gupta](https://github.com/codewithritik)
-[@riyaz ahmad](https://github.com/iam-riyaz)
+[@riyaz ahmad]
 [@Vishesh Kushwaha](https://github.com/vishesh11111)
-[@Aman Katiyar](https://github.com/amankatiyar321)
+[@Aman Katiyar]
 [@Aditya Verma]
 
 
